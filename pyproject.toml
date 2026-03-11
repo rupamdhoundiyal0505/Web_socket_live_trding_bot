@@ -1,0 +1,14 @@
+[project]
+name = "algo-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fyers-apiv3",
+    "pandas",
+    "pandas-ta",
+    "requests",
+    "python-dotenv",
+    "pytz"
+]
