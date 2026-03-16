@@ -6,9 +6,8 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
 .venv
-accesstoken.txt
+access_token.txt
 web_s.py
 gen_token.py
 .env
