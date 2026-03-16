@@ -25,14 +25,16 @@ def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
         length=ST_LENGTH,
         multiplier=ST_MULTIPLIER
     )
-    bb = ta.bands(
+    bb = ta.bbands(
         df["close"],
         length = BB_LENGTH,
         std = BB_STD
     )
-    df["bb_upper"] = bb[f"BBU_{BB_LENGTH}_{BB_STD}"]
-    df["bb_mid"]   = bb[f"BBM_{BB_LENGTH}_{BB_STD}"]
-    df["bb_lower"] = bb[f"BBL_{BB_LENGTH}_{BB_STD}"]
+    print("BB columns:", bb.columns.tolist())   # ← add this
+    # print("BB_LENGTH:", BB_LENGTH, "BB_STD:", BB_STD)  # ← add this
+    df["bb_lower"] = bb.iloc[:, 0]   # first column  = BBL
+    df["bb_mid"]   = bb.iloc[:, 1]   # second column = BBM
+    df["bb_upper"] = bb.iloc[:, 2]   # third column  = BBU
 
     df["supertrend"] = st[f"SUPERT_{ST_LENGTH}_{ST_MULTIPLIER}"]
     df["supertrend_dir"] = st[f"SUPERTd_{ST_LENGTH}_{ST_MULTIPLIER}"]

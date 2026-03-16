@@ -1,8 +1,8 @@
 import time
-from numpy import int128
+# from numpy import int128
 import pandas as pd
 import pytz
-from datetime import datetime
+from datetime import datetime, timedelta
 from fyers_apiv3 import fyersModel
 
 from config import CLIENT_ID, TIMEZONE, TIMEFRAME_MIN, CANDLE_LIMIT, SYMBOL
@@ -17,34 +17,35 @@ def fetch_historical_candles(
     limit: int = CANDLE_LIMIT,
 ) -> pd.DataFrame:
     access_token = read_access_token()
-    full_token = f"{CLIENT_ID}:{access_token}"
+    # full_token = f"{CLIENT_ID}:{access_token}"
 
     fyers = fyersModel.FyersModel(
         client_id=CLIENT_ID,
-        token = full_token,
+        token = access_token,
         log_path= "",
     )
     log.info(
     "Fetching %d candles | symbol=%s | timeframe=%d min",
     limit, symbol, timeframe_min)
 
-    range_to = int(time.time())
-    range_from = range_to - (limit * timeframe_min*60)
+    range_to = datetime.now(tz=IST)
+    range_from = range_to - timedelta(days=7)
 
     log.debug(
         "Date range | from=%s | to=%s",
-        datetime.fromtimestamp(range_from, tz=IST).strftime("%d-%b %H:%M"),
-        datetime.fromtimestamp(range_to,   tz=IST).strftime("%d-%b %H:%M"),
+        range_from.strftime("%d-%b %H:%M"),
+        range_to.strftime("%d-%b %H:%M"),
     )
 
     data = {
         "symbol" : symbol,
         "resolution" : str(timeframe_min),
         "date_format" : "1",
-        "range_from" : str(range_from),
-        "range_to" : str(range_to),
+        "range_from" : range_from.strftime("%Y-%m-%d"),
+        "range_to" : range_to.strftime("%Y-%m-%d"),
         "cont_flag" : "1"
     }
+    print("sending data",data)
     response = fyers.history(data=data)
     if response.get("s") != "ok":
         raise RuntimeError(

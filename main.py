@@ -3,6 +3,9 @@ from config import CANDLE_LIMIT, CLIENT_ID, SYMBOL, TIMEFRAME_MIN
 from utils import setup_logger, read_access_token
 from candle_builder import CandleBuilder
 from history_loader import fetch_historical_candles
+from indicator_engine import calculate_indicators
+from signal_engine import generate_signal
+from telegram_alert import send_alert
 
 log = setup_logger(__name__)
 builder = None
@@ -34,10 +37,13 @@ def on_open() -> None:
     fyers_ws.keep_running()
 
 def on_candle_close(df):
-    # df = calculate_indicators(df)
-    # signal = generate_signals(df)
-    # send_alert(signal, df)
-    pass
+    df = builder.get_candles()
+    print(f"Candles shape: {df.shape}") 
+    df = calculate_indicators(df)
+    print(f"Columns after indicators: {df.columns.tolist()}")  # what columns exist
+    print(f"Last row:\n{df.iloc[-1]}")  
+    signal = generate_signal(df)
+    send_alert(signal, df)
 
 
 def main(timeframe_min: int = TIMEFRAME_MIN):

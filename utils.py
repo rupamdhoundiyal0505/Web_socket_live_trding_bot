@@ -12,7 +12,7 @@ def setup_logger(name: str, level=logging.DEBUG)-> logging.Logger:
         datefmt="%H:%M:%S"
     )
     stream = logging.StreamHandler()
-    stream.setLevel(logging.DEBUg)
+    stream.setLevel(logging.DEBUG)
     stream.setFormatter(formatter)
 
     # stream = logging.StreamHandler()
@@ -46,12 +46,12 @@ def read_access_token()-> str:
             f"Place your access token in {TOKEN_FILE}"
             f"in the same folder as main.py"
         )
-        if not token:
-            raise ValueError(
-                f"'{TOKEN_FILE}' is empty "
-                f"Paste your fyers access token into it"
-            )
+    if not token:
+        raise ValueError(
+            f"'{TOKEN_FILE}' is empty "
+            f"Paste your fyers access token into it"
+        )
 
-        log.info("Accesss token loaded....")
-        return token
+    log.info("Accesss token loaded....")
+    return token
 

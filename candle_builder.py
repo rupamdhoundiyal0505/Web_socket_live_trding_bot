@@ -16,7 +16,7 @@ class CandleBuilder:
 
         self.temp_ltps = []
         self.candle_start = None
-        self.on_candle_close= on_candle_close,
+        self.on_candle_close= on_candle_close
 
         self.candles_df = pd.DataFrame(
             columns=["timestamp","open","high","low","close"]
@@ -29,7 +29,7 @@ class CandleBuilder:
 
     def add_tick(self, message: dict) -> None:
         ltp = message.get("ltp") # get returns None avoid crsh if key is missing
-        ts = message.get("tt")
+        ts = message.get("exch_feed_time")
 
         if ltp is None or ts is None:
             log.debug("Incomplete tick skipped: %s", message)

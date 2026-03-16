@@ -1,0 +1,319 @@
+09:37:54 INFO        Fyers Signal Bot — Starting    
+09:37:54 INFO     Symbol    : NSE:NIFTY50-INDEX
+09:37:54 INFO     Timeframe : 10 min
+09:37:54 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+09:37:54 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:34:13 INFO        Fyers Signal Bot — Starting    
+11:34:13 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:34:13 INFO     Timeframe : 10 min
+11:34:13 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:34:13 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:35:16 INFO        Fyers Signal Bot — Starting    
+11:35:16 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:35:16 INFO     Timeframe : 10 min
+11:35:16 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:35:16 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:40:04 INFO        Fyers Signal Bot — Starting    
+11:40:04 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:40:04 INFO     Timeframe : 10 min
+11:40:04 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:40:04 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:42:28 INFO        Fyers Signal Bot — Starting    
+11:42:28 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:42:28 INFO     Timeframe : 10 min
+11:42:28 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:42:28 INFO     Accesss token loaded....
+11:42:28 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:44:49 INFO        Fyers Signal Bot — Starting    
+11:44:49 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:44:49 INFO     Timeframe : 10 min
+11:44:49 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:44:49 INFO     Accesss token loaded....
+11:44:49 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:46:34 INFO        Fyers Signal Bot — Starting    
+11:46:34 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:46:34 INFO     Timeframe : 10 min
+11:46:34 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:46:34 INFO     Accesss token loaded....
+11:46:34 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:47:34 INFO        Fyers Signal Bot — Starting    
+11:47:34 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:47:34 INFO     Timeframe : 10 min
+11:47:34 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:47:34 INFO     Accesss token loaded....
+11:47:34 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:47:34 INFO     sending data
+11:47:55 INFO        Fyers Signal Bot — Starting    
+11:47:55 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:47:55 INFO     Timeframe : 10 min
+11:47:55 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:47:55 INFO     Accesss token loaded....
+11:47:55 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:51:12 INFO        Fyers Signal Bot — Starting    
+11:51:12 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:51:12 INFO     Timeframe : 10 min
+11:51:12 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:51:12 INFO     Accesss token loaded....
+11:51:12 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:52:27 INFO        Fyers Signal Bot — Starting    
+11:52:27 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:52:27 INFO     Timeframe : 10 min
+11:52:27 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:52:27 INFO     Accesss token loaded....
+11:52:27 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:52:27 INFO     API response recieved | status ok
+11:52:27 INFO     Candles parsed | count=206 | first=09-Mar 09:15 | last=16-Mar 11:45
+11:52:27 INFO     Historical candles loaded | count=206 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 11:45:00+05:30
+11:52:27 INFO     Accesss token loaded....
+11:52:27 INFO     Connecting to Fyers WebSocket...
+11:52:29 INFO     Websocket Connected
+11:56:39 INFO        Fyers Signal Bot — Starting    
+11:56:39 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:56:39 INFO     Timeframe : 10 min
+11:56:39 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+11:56:39 INFO     Accesss token loaded....
+11:56:39 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+11:56:39 INFO     API response recieved | status ok
+11:56:39 INFO     Candles parsed | count=207 | first=09-Mar 09:15 | last=16-Mar 11:55
+11:56:39 INFO     Historical candles loaded | count=207 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 11:55:00+05:30
+11:56:39 INFO     Accesss token loaded....
+11:56:39 INFO     Connecting to Fyers WebSocket...
+11:56:41 INFO     Websocket Connected
+11:56:42 INFO     First tick | LTP:23148.95 | window opened @ 11:56:41 IST
+11:59:11 INFO        Fyers Signal Bot — Starting    
+11:59:11 INFO     Symbol    : NSE:NIFTY50-INDEX
+11:59:11 INFO     Timeframe : 1 min
+11:59:11 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+11:59:11 INFO     Accesss token loaded....
+11:59:11 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+11:59:11 INFO     API response recieved | status ok
+11:59:11 INFO     Candles parsed | count=2040 | first=09-Mar 09:15 | last=16-Mar 11:59
+11:59:11 INFO     Historical candles loaded | count=2040 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 11:59:00+05:30
+11:59:11 INFO     Accesss token loaded....
+11:59:11 INFO     Connecting to Fyers WebSocket...
+11:59:13 INFO     Websocket Connected
+11:59:14 INFO     First tick | LTP:23152.20 | window opened @ 11:59:13 IST
+12:00:13 INFO     CANDLE ✓ | 16-Mar 11:59 | O:23152.20 H:23154.05 L:23142.55 C:23150.75 | total=2041
+12:00:13 ERROR    WebSocket error :'tuple' object is not callable
+12:01:14 INFO     CANDLE ✓ | 16-Mar 12:00 | O:23151.00 H:23170.10 L:23149.80 C:23169.80 | total=2042
+12:01:14 ERROR    WebSocket error :'tuple' object is not callable
+12:02:13 INFO     CANDLE ✓ | 16-Mar 12:01 | O:23169.10 H:23177.05 L:23168.85 C:23175.10 | total=2043
+12:02:13 ERROR    WebSocket error :'tuple' object is not callable
+12:02:27 INFO        Fyers Signal Bot — Starting    
+12:02:27 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:02:27 INFO     Timeframe : 1 min
+12:02:27 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:02:27 INFO     Accesss token loaded....
+12:02:27 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:02:27 INFO     API response recieved | status ok
+12:02:27 INFO     Candles parsed | count=2043 | first=09-Mar 09:15 | last=16-Mar 12:02
+12:02:27 INFO     Historical candles loaded | count=2043 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:02:00+05:30
+12:02:27 INFO     Accesss token loaded....
+12:02:27 INFO     Connecting to Fyers WebSocket...
+12:02:29 INFO     Websocket Connected
+12:02:30 INFO     First tick | LTP:23175.65 | window opened @ 12:02:30 IST
+12:03:30 INFO     CANDLE ✓ | 16-Mar 12:02 | O:23175.65 H:23185.15 L:23175.25 C:23184.55 | total=2044
+12:04:30 INFO     CANDLE ✓ | 16-Mar 12:03 | O:23184.80 H:23188.95 L:23171.55 C:23172.00 | total=2045
+12:05:30 INFO     CANDLE ✓ | 16-Mar 12:04 | O:23169.65 H:23169.65 L:23154.35 C:23160.10 | total=2046
+12:06:31 INFO     CANDLE ✓ | 16-Mar 12:05 | O:23160.00 H:23162.10 L:23151.90 C:23151.90 | total=2047
+12:07:30 INFO     CANDLE ✓ | 16-Mar 12:06 | O:23152.15 H:23160.95 L:23150.80 C:23154.35 | total=2048
+12:08:30 INFO     CANDLE ✓ | 16-Mar 12:07 | O:23154.85 H:23163.80 L:23154.60 C:23161.95 | total=2049
+12:09:31 INFO     CANDLE ✓ | 16-Mar 12:08 | O:23162.20 H:23168.15 L:23160.85 C:23161.50 | total=2050
+12:10:30 INFO     CANDLE ✓ | 16-Mar 12:09 | O:23162.50 H:23162.80 L:23154.20 C:23155.25 | total=2051
+12:12:04 INFO        Fyers Signal Bot — Starting    
+12:12:04 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:12:04 INFO     Timeframe : 1 min
+12:12:04 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:12:04 INFO     Accesss token loaded....
+12:12:04 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:12:10 INFO     API response recieved | status ok
+12:12:10 INFO     Candles parsed | count=2053 | first=09-Mar 09:15 | last=16-Mar 12:12
+12:12:10 INFO     Historical candles loaded | count=2053 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:12:00+05:30
+12:12:10 INFO     Accesss token loaded....
+12:12:10 INFO     Connecting to Fyers WebSocket...
+12:12:12 INFO     Websocket Connected
+12:12:13 INFO     First tick | LTP:23164.85 | window opened @ 12:12:12 IST
+12:13:12 INFO     CANDLE ✓ | 16-Mar 12:12 | O:23164.85 H:23185.45 L:23164.85 C:23185.20 | total=2054
+12:14:12 INFO     CANDLE ✓ | 16-Mar 12:13 | O:23185.00 H:23185.85 L:23164.20 C:23164.20 | total=2055
+12:15:59 INFO        Fyers Signal Bot — Starting    
+12:15:59 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:15:59 INFO     Timeframe : 1 min
+12:15:59 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:15:59 INFO     Accesss token loaded....
+12:15:59 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:15:59 INFO     API response recieved | status ok
+12:15:59 INFO     Candles parsed | count=2056 | first=09-Mar 09:15 | last=16-Mar 12:15
+12:15:59 INFO     Historical candles loaded | count=2056 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:15:00+05:30
+12:15:59 INFO     Accesss token loaded....
+12:15:59 INFO     Connecting to Fyers WebSocket...
+12:16:01 INFO     Websocket Connected
+12:16:02 INFO     First tick | LTP:23165.90 | window opened @ 12:16:01 IST
+12:17:01 INFO     CANDLE ✓ | 16-Mar 12:16 | O:23165.90 H:23165.90 L:23154.35 C:23156.60 | total=2057
+12:18:01 INFO     CANDLE ✓ | 16-Mar 12:17 | O:23156.50 H:23169.15 L:23155.20 C:23165.10 | total=2058
+12:19:02 INFO     CANDLE ✓ | 16-Mar 12:18 | O:23161.20 H:23163.20 L:23156.00 C:23158.50 | total=2059
+12:20:01 INFO     CANDLE ✓ | 16-Mar 12:19 | O:23158.05 H:23167.15 L:23158.05 C:23166.80 | total=2060
+12:21:02 INFO     CANDLE ✓ | 16-Mar 12:20 | O:23166.40 H:23170.95 L:23162.30 C:23170.95 | total=2061
+12:22:01 INFO     CANDLE ✓ | 16-Mar 12:21 | O:23170.45 H:23174.75 L:23169.35 C:23172.65 | total=2062
+12:23:02 INFO     CANDLE ✓ | 16-Mar 12:22 | O:23172.00 H:23172.00 L:23167.20 C:23171.60 | total=2063
+12:24:02 INFO     CANDLE ✓ | 16-Mar 12:23 | O:23170.55 H:23177.15 L:23170.55 C:23175.15 | total=2064
+12:24:47 INFO        Fyers Signal Bot — Starting    
+12:24:47 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:24:47 INFO     Timeframe : 1 min
+12:24:47 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:24:47 INFO     Accesss token loaded....
+12:24:47 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:24:48 INFO     API response recieved | status ok
+12:24:48 INFO     Candles parsed | count=2065 | first=09-Mar 09:15 | last=16-Mar 12:24
+12:24:48 INFO     Historical candles loaded | count=2065 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:24:00+05:30
+12:24:48 INFO     Accesss token loaded....
+12:24:48 INFO     Connecting to Fyers WebSocket...
+12:24:50 INFO     Websocket Connected
+12:24:51 INFO     First tick | LTP:23186.40 | window opened @ 12:24:50 IST
+12:25:50 INFO     CANDLE ✓ | 16-Mar 12:24 | O:23186.40 H:23192.85 L:23180.10 C:23187.30 | total=2066
+12:25:51 ERROR    WebSocket error :module 'pandas_ta' has no attribute 'bands'
+12:26:52 INFO        Fyers Signal Bot — Starting    
+12:26:52 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:26:52 INFO     Timeframe : 1 min
+12:26:52 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:26:52 INFO     Accesss token loaded....
+12:26:52 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:26:52 INFO     API response recieved | status ok
+12:26:52 INFO     Candles parsed | count=2067 | first=09-Mar 09:15 | last=16-Mar 12:26
+12:26:52 INFO     Historical candles loaded | count=2067 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:26:00+05:30
+12:26:52 INFO     Accesss token loaded....
+12:26:52 INFO     Connecting to Fyers WebSocket...
+12:26:54 INFO     Websocket Connected
+12:26:55 INFO     First tick | LTP:23191.20 | window opened @ 12:26:54 IST
+12:27:54 INFO     CANDLE ✓ | 16-Mar 12:26 | O:23191.20 H:23191.85 L:23183.60 C:23185.95 | total=2068
+12:27:58 ERROR    WebSocket error :KeyError: The key 'BBU_20_1' is missing in the response.
+12:28:54 INFO     CANDLE ✓ | 16-Mar 12:27 | O:23185.40 H:23186.90 L:23171.15 C:23178.50 | total=2069
+12:28:54 ERROR    WebSocket error :KeyError: The key 'BBU_20_1' is missing in the response.
+12:29:05 INFO        Fyers Signal Bot — Starting    
+12:29:05 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:29:05 INFO     Timeframe : 1 min
+12:29:05 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:29:05 INFO     Accesss token loaded....
+12:29:05 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:29:05 INFO     API response recieved | status ok
+12:29:05 INFO     Candles parsed | count=2070 | first=09-Mar 09:15 | last=16-Mar 12:29
+12:29:05 INFO     Historical candles loaded | count=2070 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:29:00+05:30
+12:29:05 INFO     Accesss token loaded....
+12:29:05 INFO     Connecting to Fyers WebSocket...
+12:29:07 INFO     Websocket Connected
+12:29:08 INFO     First tick | LTP:23184.00 | window opened @ 12:29:07 IST
+12:30:07 INFO     CANDLE ✓ | 16-Mar 12:29 | O:23184.00 H:23189.05 L:23174.20 C:23174.20 | total=2071
+12:30:08 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:31:07 INFO     CANDLE ✓ | 16-Mar 12:30 | O:23174.45 H:23174.45 L:23163.85 C:23173.80 | total=2072
+12:31:07 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:31:14 INFO        Fyers Signal Bot — Starting    
+12:31:14 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:31:14 INFO     Timeframe : 1 min
+12:31:14 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:31:14 INFO     Accesss token loaded....
+12:31:14 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:31:14 INFO     API response recieved | status ok
+12:31:14 INFO     Candles parsed | count=2072 | first=09-Mar 09:15 | last=16-Mar 12:31
+12:31:14 INFO     Historical candles loaded | count=2072 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:31:00+05:30
+12:31:14 INFO     Accesss token loaded....
+12:31:14 INFO     Connecting to Fyers WebSocket...
+12:31:16 INFO     Websocket Connected
+12:31:17 INFO     First tick | LTP:23178.60 | window opened @ 12:31:16 IST
+12:32:17 INFO     CANDLE ✓ | 16-Mar 12:31 | O:23178.60 H:23178.60 L:23172.55 C:23176.20 | total=2073
+12:32:17 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:33:16 INFO     CANDLE ✓ | 16-Mar 12:32 | O:23175.95 H:23182.55 L:23173.75 C:23177.10 | total=2074
+12:33:16 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:34:17 INFO     CANDLE ✓ | 16-Mar 12:33 | O:23177.00 H:23177.00 L:23157.15 C:23157.70 | total=2075
+12:34:17 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:35:16 INFO     CANDLE ✓ | 16-Mar 12:34 | O:23156.75 H:23156.75 L:23138.85 C:23142.15 | total=2076
+12:35:16 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:36:17 INFO     CANDLE ✓ | 16-Mar 12:35 | O:23138.00 H:23138.55 L:23114.50 C:23118.10 | total=2077
+12:36:17 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0' is missing in the response.
+12:36:43 INFO        Fyers Signal Bot — Starting    
+12:36:43 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:36:43 INFO     Timeframe : 1 min
+12:36:43 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:36:43 INFO     Accesss token loaded....
+12:36:43 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:36:44 INFO     API response recieved | status ok
+12:36:44 INFO     Candles parsed | count=2077 | first=09-Mar 09:15 | last=16-Mar 12:36
+12:36:44 INFO     Historical candles loaded | count=2077 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:36:00+05:30
+12:36:44 INFO     Accesss token loaded....
+12:36:44 INFO     Connecting to Fyers WebSocket...
+12:36:46 INFO     Websocket Connected
+12:36:47 INFO     First tick | LTP:23137.00 | window opened @ 12:36:46 IST
+12:37:47 INFO     CANDLE ✓ | 16-Mar 12:36 | O:23137.00 H:23148.65 L:23137.00 C:23145.80 | total=2078
+12:37:47 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0_1.0' is missing in the response.
+12:38:47 INFO     CANDLE ✓ | 16-Mar 12:37 | O:23145.50 H:23158.45 L:23144.15 C:23150.25 | total=2079
+12:38:47 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0_1.0' is missing in the response.
+12:39:25 INFO        Fyers Signal Bot — Starting    
+12:39:25 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:39:25 INFO     Timeframe : 1 min
+12:39:25 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:39:25 INFO     Accesss token loaded....
+12:39:25 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:39:25 INFO     API response recieved | status ok
+12:39:25 INFO     Candles parsed | count=2080 | first=09-Mar 09:15 | last=16-Mar 12:39
+12:39:25 INFO     Historical candles loaded | count=2080 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:39:00+05:30
+12:39:25 INFO     Accesss token loaded....
+12:39:25 INFO     Connecting to Fyers WebSocket...
+12:39:27 INFO     Websocket Connected
+12:39:28 INFO     First tick | LTP:23155.75 | window opened @ 12:39:27 IST
+12:40:27 INFO     CANDLE ✓ | 16-Mar 12:39 | O:23155.75 H:23160.10 L:23152.75 C:23155.20 | total=2081
+12:40:28 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0_1.0' is missing in the response.
+12:41:28 INFO     CANDLE ✓ | 16-Mar 12:40 | O:23151.45 H:23165.25 L:23151.45 C:23161.30 | total=2082
+12:41:28 ERROR    WebSocket error :KeyError: The key 'BBU_20_1.0_1.0' is missing in the response.
+12:41:49 INFO        Fyers Signal Bot — Starting    
+12:41:49 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:41:49 INFO     Timeframe : 1 min
+12:41:49 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:41:49 INFO     Accesss token loaded....
+12:41:49 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:41:49 INFO     API response recieved | status ok
+12:41:49 INFO     Candles parsed | count=2082 | first=09-Mar 09:15 | last=16-Mar 12:41
+12:41:49 INFO     Historical candles loaded | count=2082 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:41:00+05:30
+12:41:49 INFO     Accesss token loaded....
+12:41:49 INFO     Connecting to Fyers WebSocket...
+12:41:51 INFO     Websocket Connected
+12:41:52 INFO     First tick | LTP:23160.05 | window opened @ 12:41:51 IST
+12:42:51 INFO     CANDLE ✓ | 16-Mar 12:41 | O:23160.05 H:23167.90 L:23160.05 C:23165.85 | total=2083
+12:42:52 INFO     Indicators calculated | RSI=51.5 | ST_dir=-1 | BB=23129.10/23166.37/23203.64
+12:42:52 INFO     Signal checking | close=23165.85 RSI=51.5 ST=-1 BB=23129.10/23166.37/23203.64
+12:42:53 INFO     Telegram alert sent → None
+12:43:51 INFO     CANDLE ✓ | 16-Mar 12:42 | O:23164.70 H:23173.50 L:23159.50 C:23171.80 | total=2084
+12:43:52 INFO     Indicators calculated | RSI=54.0 | ST_dir=-1 | BB=23129.07/23166.25/23203.43
+12:43:52 INFO     Signal checking | close=23171.80 RSI=54.0 ST=-1 BB=23129.07/23166.25/23203.43
+12:44:52 INFO     CANDLE ✓ | 16-Mar 12:43 | O:23171.00 H:23172.85 L:23152.35 C:23154.95 | total=2085
+12:44:52 INFO     Indicators calculated | RSI=46.7 | ST_dir=-1 | BB=23128.95/23164.40/23199.85
+12:44:52 INFO     Signal checking | close=23154.95 RSI=46.7 ST=-1 BB=23128.95/23164.40/23199.85
+12:45:51 INFO     CANDLE ✓ | 16-Mar 12:44 | O:23154.90 H:23155.10 L:23137.25 C:23138.15 | total=2086
+12:45:52 INFO     Indicators calculated | RSI=40.8 | ST_dir=-1 | BB=23126.48/23161.89/23197.30
+12:45:52 INFO     Signal checking | close=23138.15 RSI=40.8 ST=-1 BB=23126.48/23161.89/23197.30
+12:46:12 INFO        Fyers Signal Bot — Starting    
+12:46:12 INFO     Symbol    : NSE:NIFTY50-INDEX
+12:46:12 INFO     Timeframe : 1 min
+12:46:12 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+12:46:12 INFO     Accesss token loaded....
+12:46:12 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+12:46:12 INFO     API response recieved | status ok
+12:46:12 INFO     Candles parsed | count=2087 | first=09-Mar 09:15 | last=16-Mar 12:46
+12:46:12 INFO     Historical candles loaded | count=2087 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 12:46:00+05:30
+12:46:12 INFO     Accesss token loaded....
+12:46:12 INFO     Connecting to Fyers WebSocket...
+12:46:14 INFO     Websocket Connected
+12:46:15 INFO     First tick | LTP:23136.80 | window opened @ 12:46:14 IST
+12:47:14 INFO     CANDLE ✓ | 16-Mar 12:46 | O:23136.80 H:23136.80 L:23118.60 C:23124.90 | total=2088
+12:47:15 INFO     Indicators calculated | RSI=37.4 | ST_dir=-1 | BB=23119.96/23155.75/23191.54
+12:47:15 INFO     Signal checking | close=23124.90 RSI=37.4 ST=-1 BB=23119.96/23155.75/23191.54
+12:47:16 INFO     Telegram alert sent → None
+12:48:14 INFO     CANDLE ✓ | 16-Mar 12:47 | O:23124.40 H:23125.95 L:23118.80 C:23119.30 | total=2089
+12:48:15 INFO     Indicators calculated | RSI=35.8 | ST_dir=-1 | BB=23115.07/23152.85/23190.64
+12:48:15 INFO     Signal checking | close=23119.30 RSI=35.8 ST=-1 BB=23115.07/23152.85/23190.64
+12:49:14 INFO     CANDLE ✓ | 16-Mar 12:48 | O:23119.10 H:23123.05 L:23105.00 C:23105.25 | total=2090
+12:49:14 INFO     Indicators calculated | RSI=32.0 | ST_dir=-1 | BB=23107.93/23149.15/23190.36
+12:49:14 INFO     Signal checking | close=23105.25 RSI=32.0 ST=-1 BB=23107.93/23149.15/23190.36
+12:50:14 INFO     CANDLE ✓ | 16-Mar 12:49 | O:23104.75 H:23106.05 L:23100.60 C:23105.60 | total=2091
+12:50:15 INFO     Indicators calculated | RSI=32.2 | ST_dir=-1 | BB=23101.82/23145.79/23189.75
+12:50:15 INFO     Signal checking | close=23105.60 RSI=32.2 ST=-1 BB=23101.82/23145.79/23189.75
+12:51:14 INFO     CANDLE ✓ | 16-Mar 12:50 | O:23105.15 H:23105.15 L:23095.65 C:23102.10 | total=2092
+12:51:15 INFO     Indicators calculated | RSI=31.3 | ST_dir=-1 | BB=23096.36/23142.12/23187.89
+12:51:15 INFO     Signal checking | close=23102.10 RSI=31.3 ST=-1 BB=23096.36/23142.12/23187.89

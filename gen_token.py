@@ -1,8 +1,8 @@
 import webbrowser
 from fyers_apiv3 import fyersModel
 
-CLIENT_ID = "KUC4376MFF-100"
-SECRET_KEY = "DUH08LDA5T"
+CLIENT_ID = "3VDRHDDYNT-100"
+SECRET_KEY = "R7XD0VJ904"
 REDIRECT_URI = "http://127.0.0.1:5000/"
 
 

@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 accesstoken.txt
+web_s.py
+gen_token.py
