@@ -11,3 +11,4 @@ wheels/
 accesstoken.txt
 web_s.py
 gen_token.py
+.env
