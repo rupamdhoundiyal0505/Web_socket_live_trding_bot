@@ -1,8 +1,8 @@
 from fyers_apiv3.FyersWebsocket import data_ws
-from config import CLIENT_ID, SYMBOL, TIMEFRAME_MIN
+from config import CANDLE_LIMIT, CLIENT_ID, SYMBOL, TIMEFRAME_MIN
 from utils import setup_logger, read_access_token
 from candle_builder import CandleBuilder
-
+from history_loader import fetch_historical_candles
 
 log = setup_logger(__name__)
 builder = None
@@ -44,6 +44,12 @@ def main(timeframe_min: int = TIMEFRAME_MIN):
         symbol = SYMBOL,
         timeframe_min = timeframe_min
     )
+    df = fetch_historical_candles(
+        symbol= SYMBOL,
+        timeframe_min=timeframe_min,
+        limit = CANDLE_LIMIT,
+    )
+    builder.set_candles(df)
     access_token = read_access_token()
     full_token = f"{CLIENT_ID}:{access_token}"
 
