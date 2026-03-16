@@ -10,12 +10,13 @@ IST = pytz.timezone(TIMEZONE)
 
 
 class CandleBuilder:
-    def __init__(self, symbol:str = SYMBOL , timeframe_min: int = TIMEFRAME_MIN):
+    def __init__(self, on_candle_close = None,  symbol:str = SYMBOL , timeframe_min: int = TIMEFRAME_MIN):
         self.symbol = symbol
         self.timeframe_min = timeframe_min
 
         self.temp_ltps = []
         self.candle_start = None
+        self.on_candle_close= on_candle_close,
 
         self.candles_df = pd.DataFrame(
             columns=["timestamp","open","high","low","close"]
@@ -80,6 +81,8 @@ class CandleBuilder:
             len(self.candles_df)
         )
         self._reset_window(current_ts)
+        if self.on_candle_close is not None:
+            self.on_candle_close(self.candles_df)
 
 
         

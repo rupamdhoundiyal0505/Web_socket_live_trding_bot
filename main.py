@@ -33,6 +33,12 @@ def on_open() -> None:
     )
     fyers_ws.keep_running()
 
+def on_candle_close(df):
+    # df = calculate_indicators(df)
+    # signal = generate_signals(df)
+    # send_alert(signal, df)
+    pass
+
 
 def main(timeframe_min: int = TIMEFRAME_MIN):
     global builder, fyers_ws
@@ -41,6 +47,7 @@ def main(timeframe_min: int = TIMEFRAME_MIN):
     log.info("Timeframe : %d min", timeframe_min)
 
     builder = CandleBuilder(
+        on_candle_close=on_candle_close,
         symbol = SYMBOL,
         timeframe_min = timeframe_min
     )
