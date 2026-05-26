@@ -15,12 +15,30 @@ def generate_signal(df: pd.DataFrame) -> str:
     bb_upper = last["bb_upper"]
     bb_mid   = last["bb_mid"]
     bb_lower = last["bb_lower"]
+    low = last["close"]
+    high = last["high"]
 
     log.info(
         "Signal checking | close=%.2f RSI=%.1f ST=%d BB=%.2f/%.2f/%.2f",
         close, rsi, st_dir,
         bb_lower, bb_mid, bb_upper,
     )
+
+    buy = (
+        
+    )
+    sell = (
+        
+    )
+    if buy:
+        log.info("Signal -> BUY")
+        return "BUY"
+    if sell:
+        log.info("Signal -> SELL")
+        return "SELL"
+    
+    log.info("latest added is not a signal candle")
+    return "HOLD"
 
 
 

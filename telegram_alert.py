@@ -3,6 +3,7 @@ from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, SYMBOL, TIMEFRAME_MIN
 from utils import setup_logger
 log = setup_logger(__name__)
 _prev_signal = "HOLD"
+
 def _format_message(signal: str, df) -> str:
     last = df.iloc[-1]
     emoji = {

@@ -30,22 +30,23 @@ class CandleBuilder:
     def add_tick(self, message: dict) -> None:
         ltp = message.get("ltp") # get returns None avoid crsh if key is missing
         ts = message.get("exch_feed_time")
+        
 
         if ltp is None or ts is None:
             log.debug("Incomplete tick skipped: %s", message)
             return
+        current_bucket = self._get_candle_bucket(ts)
         if self.candle_start is None:
-            self.candle_start = ts
+            self.candle_start = current_bucket
             log.info(
                 "First tick | LTP:%.2f | window opened @ %s IST",
                 ltp,
                 self._to_ist(ts).strftime("%H:%M:%S")
             )
-        elapsed = ts - self.candle_start
-        window = self.timeframe_min * 60
+      
 
-        if elapsed >= window : 
-            self._close_candle(ts)
+        if current_bucket != self.candle_start:
+            self._close_candle(current_bucket)
 
         self.temp_ltps.append(ltp)
 
@@ -84,8 +85,13 @@ class CandleBuilder:
         if self.on_candle_close is not None:
             self.on_candle_close(self.candles_df)
 
-
-        
+    def _get_candle_bucket(self,unix_ts: int) -> int:
+        dt=self._to_ist(unix_ts)
+        aligned_minute = (
+            dt.minute // self.timeframe_min
+        )* self.timeframe_min
+        bucket = dt.replace(minute=aligned_minute, second=0, microsecond=0)
+        return int(bucket.timestamp())
 
     def _reset_window(self, new_start_ts: int) -> None:
         self.temp_ltps = []

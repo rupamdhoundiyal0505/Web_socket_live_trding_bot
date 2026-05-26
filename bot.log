@@ -317,3 +317,99 @@
 12:51:14 INFO     CANDLE ✓ | 16-Mar 12:50 | O:23105.15 H:23105.15 L:23095.65 C:23102.10 | total=2092
 12:51:15 INFO     Indicators calculated | RSI=31.3 | ST_dir=-1 | BB=23096.36/23142.12/23187.89
 12:51:15 INFO     Signal checking | close=23102.10 RSI=31.3 ST=-1 BB=23096.36/23142.12/23187.89
+13:10:08 INFO        Fyers Signal Bot — Starting    
+13:10:08 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:10:08 INFO     Timeframe : 1 min
+13:10:08 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:10:08 INFO     Accesss token loaded....
+13:10:08 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:10:08 INFO     API response recieved | status ok
+13:10:08 INFO     Candles parsed | count=2111 | first=09-Mar 09:15 | last=16-Mar 13:10
+13:10:08 INFO     Historical candles loaded | count=2111 | first=2026-03-09 09:15:00+05:30 | last=2026-03-16 13:10:00+05:30
+13:10:08 INFO     Accesss token loaded....
+13:10:08 INFO     Connecting to Fyers WebSocket...
+13:10:10 INFO     Websocket Connected
+13:10:11 INFO     First tick | LTP:23119.05 | window opened @ 13:10:10 IST
+13:11:10 INFO     CANDLE ✓ | 16-Mar 13:10 | O:23119.05 H:23121.00 L:23111.65 C:23121.00 | total=2112
+13:11:11 INFO     Indicators calculated | RSI=46.8 | ST_dir=-1 | BB=23092.24/23125.88/23159.51
+13:11:11 INFO     Signal checking | close=23121.00 RSI=46.8 ST=-1 BB=23092.24/23125.88/23159.51
+13:11:11 INFO     latest added is not a signal candle
+13:12:11 INFO     CANDLE ✓ | 16-Mar 13:11 | O:23121.50 H:23142.35 L:23115.85 C:23142.35 | total=2113
+13:12:11 INFO     Indicators calculated | RSI=54.7 | ST_dir=-1 | BB=23094.19/23127.56/23160.94
+13:12:11 INFO     Signal checking | close=23142.35 RSI=54.7 ST=-1 BB=23094.19/23127.56/23160.94
+13:12:11 INFO     latest added is not a signal candle
+13:13:10 INFO     CANDLE ✓ | 16-Mar 13:12 | O:23143.05 H:23146.30 L:23124.10 C:23125.10 | total=2114
+13:13:11 INFO     Indicators calculated | RSI=48.5 | ST_dir=-1 | BB=23094.17/23127.54/23160.92
+13:13:11 INFO     Signal checking | close=23125.10 RSI=48.5 ST=-1 BB=23094.17/23127.54/23160.92
+13:13:11 INFO     latest added is not a signal candle
+13:14:10 INFO     CANDLE ✓ | 16-Mar 13:13 | O:23124.00 H:23125.75 L:23114.40 C:23114.40 | total=2115
+13:14:11 INFO     Indicators calculated | RSI=45.0 | ST_dir=-1 | BB=23093.23/23127.09/23160.95
+13:14:11 INFO     Signal checking | close=23114.40 RSI=45.0 ST=-1 BB=23093.23/23127.09/23160.95
+13:14:11 INFO     latest added is not a signal candle
+13:15:11 INFO     CANDLE ✓ | 16-Mar 13:14 | O:23115.95 H:23125.40 L:23113.00 C:23121.00 | total=2116
+13:15:11 INFO     Indicators calculated | RSI=47.5 | ST_dir=-1 | BB=23093.74/23127.34/23160.93
+13:15:11 INFO     Signal checking | close=23121.00 RSI=47.5 ST=-1 BB=23093.74/23127.34/23160.93
+13:15:11 INFO     latest added is not a signal candle
+13:16:10 INFO     CANDLE ✓ | 16-Mar 13:15 | O:23121.60 H:23138.50 L:23121.60 C:23137.15 | total=2117
+13:16:11 INFO     Indicators calculated | RSI=53.1 | ST_dir=-1 | BB=23094.11/23127.95/23161.80
+13:16:11 INFO     Signal checking | close=23137.15 RSI=53.1 ST=-1 BB=23094.11/23127.95/23161.80
+13:16:11 INFO     latest added is not a signal candle
+13:17:11 INFO     CANDLE ✓ | 16-Mar 13:16 | O:23137.25 H:23140.85 L:23131.00 C:23139.45 | total=2118
+13:17:11 INFO     Indicators calculated | RSI=53.8 | ST_dir=-1 | BB=23094.95/23128.94/23162.93
+13:17:11 INFO     Signal checking | close=23139.45 RSI=53.8 ST=-1 BB=23094.95/23128.94/23162.93
+13:17:11 INFO     latest added is not a signal candle
+13:18:10 INFO     CANDLE ✓ | 16-Mar 13:17 | O:23139.35 H:23151.05 L:23138.65 C:23147.95 | total=2119
+13:18:11 INFO     Indicators calculated | RSI=56.6 | ST_dir=-1 | BB=23095.96/23130.48/23165.00
+13:18:11 INFO     Signal checking | close=23147.95 RSI=56.6 ST=-1 BB=23095.96/23130.48/23165.00
+13:18:11 INFO     latest added is not a signal candle
+13:19:11 INFO     CANDLE ✓ | 16-Mar 13:18 | O:23147.65 H:23149.40 L:23138.30 C:23141.50 | total=2120
+13:19:11 INFO     Indicators calculated | RSI=53.9 | ST_dir=-1 | BB=23096.07/23130.94/23165.80
+13:19:11 INFO     Signal checking | close=23141.50 RSI=53.9 ST=-1 BB=23096.07/23130.94/23165.80
+13:19:11 INFO     latest added is not a signal candle
+13:20:11 INFO     CANDLE ✓ | 16-Mar 13:19 | O:23141.40 H:23151.10 L:23139.25 C:23145.85 | total=2121
+13:20:11 INFO     Indicators calculated | RSI=55.4 | ST_dir=-1 | BB=23096.05/23131.53/23167.01
+13:20:11 INFO     Signal checking | close=23145.85 RSI=55.4 ST=-1 BB=23096.05/23131.53/23167.01
+13:20:11 INFO     latest added is not a signal candle
+13:21:11 INFO     CANDLE ✓ | 16-Mar 13:20 | O:23146.05 H:23156.80 L:23144.80 C:23153.90 | total=2122
+13:21:11 INFO     Indicators calculated | RSI=58.2 | ST_dir=-1 | BB=23095.70/23131.79/23167.88
+13:21:11 INFO     Signal checking | close=23153.90 RSI=58.2 ST=-1 BB=23095.70/23131.79/23167.88
+13:21:11 INFO     latest added is not a signal candle
+13:22:10 INFO     CANDLE ✓ | 16-Mar 13:21 | O:23154.50 H:23159.10 L:23151.50 C:23157.45 | total=2123
+13:22:10 INFO     Indicators calculated | RSI=59.4 | ST_dir=-1 | BB=23097.14/23131.27/23165.40
+13:22:10 INFO     Signal checking | close=23157.45 RSI=59.4 ST=-1 BB=23097.14/23131.27/23165.40
+13:22:10 INFO     latest added is not a signal candle
+13:23:10 INFO     CANDLE ✓ | 16-Mar 13:22 | O:23158.50 H:23168.40 L:23158.50 C:23166.40 | total=2124
+13:23:11 INFO     Indicators calculated | RSI=62.3 | ST_dir=1 | BB=23096.91/23131.34/23165.77
+13:23:11 INFO     Signal checking | close=23166.40 RSI=62.3 ST=1 BB=23096.91/23131.34/23165.77
+13:23:11 INFO     Signal -> BUY
+13:23:12 INFO     Telegram alert sent → BUY
+13:24:10 INFO     CANDLE ✓ | 16-Mar 13:23 | O:23166.05 H:23168.95 L:23146.80 C:23151.20 | total=2125
+13:24:11 INFO     Indicators calculated | RSI=55.1 | ST_dir=1 | BB=23097.58/23132.81/23168.03
+13:24:11 INFO     Signal checking | close=23151.20 RSI=55.1 ST=1 BB=23097.58/23132.81/23168.03
+13:24:11 INFO     latest added is not a signal candle
+13:24:12 INFO     Telegram alert sent → HOLD
+14:58:22 INFO        Fyers Signal Bot — Starting    
+14:58:22 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:58:22 INFO     Timeframe : 1 min
+14:58:22 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:58:22 INFO     Accesss token loaded....
+14:58:22 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:58:22 INFO     API response recieved | status ok
+14:58:22 INFO     Candles parsed | count=2219 | first=19-May 09:15 | last=26-May 14:58
+14:58:22 INFO     Historical candles loaded | count=2219 | first=2026-05-19 09:15:00+05:30 | last=2026-05-26 14:58:00+05:30
+14:58:22 INFO     Accesss token loaded....
+14:58:22 INFO     Connecting to Fyers WebSocket...
+14:58:24 INFO     Websocket Connected
+14:58:26 INFO     First tick | LTP:23917.10 | window opened @ 14:58:26 IST
+14:59:00 INFO     CANDLE ✓ | 26-May 14:58 | O:23917.10 H:23917.95 L:23908.95 C:23910.25 | total=2220
+14:59:00 INFO     Indicators calculated | RSI=56.0 | ST_dir=1 | BB=23884.13/23898.28/23912.43
+14:59:00 INFO     Signal checking | close=23910.25 RSI=56.0 ST=1 BB=23884.13/23898.28/23912.43
+14:59:00 INFO     latest added is not a signal candle
+15:00:00 INFO     CANDLE ✓ | 26-May 14:59 | O:23909.15 H:23916.05 L:23909.15 C:23913.05 | total=2221
+15:00:00 INFO     Indicators calculated | RSI=58.3 | ST_dir=1 | BB=23883.40/23899.02/23914.64
+15:00:00 INFO     Signal checking | close=23913.05 RSI=58.3 ST=1 BB=23883.40/23899.02/23914.64
+15:00:00 INFO     latest added is not a signal candle
+15:01:00 INFO     CANDLE ✓ | 26-May 15:00 | O:23913.50 H:23915.55 L:23902.35 C:23906.35 | total=2222
+15:01:00 INFO     Indicators calculated | RSI=51.3 | ST_dir=1 | BB=23883.47/23899.42/23915.37
+15:01:00 INFO     Signal checking | close=23906.35 RSI=51.3 ST=1 BB=23883.47/23899.42/23915.37
+15:01:00 INFO     latest added is not a signal candle
