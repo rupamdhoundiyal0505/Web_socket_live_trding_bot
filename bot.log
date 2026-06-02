@@ -413,3 +413,760 @@
 15:01:00 INFO     Indicators calculated | RSI=51.3 | ST_dir=1 | BB=23883.47/23899.42/23915.37
 15:01:00 INFO     Signal checking | close=23906.35 RSI=51.3 ST=1 BB=23883.47/23899.42/23915.37
 15:01:00 INFO     latest added is not a signal candle
+13:39:35 INFO        Fyers Signal Bot — Starting    
+13:39:35 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:39:35 INFO     Timeframe : 1 min
+13:39:35 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:39:35 INFO     Accesss token loaded....
+13:39:35 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:41:49 INFO        Fyers Signal Bot — Starting    
+13:41:49 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:41:49 INFO     Timeframe : 1 min
+13:41:49 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:41:49 INFO     Accesss token loaded....
+13:41:49 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:41:50 INFO     API response recieved | status ok
+13:41:50 INFO     Candles parsed | count=1767 | first=22-May 09:15 | last=29-May 13:41
+13:41:50 INFO     Historical candles loaded | count=1767 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 13:41:00+05:30
+13:41:50 INFO     Accesss token loaded....
+13:41:50 INFO     Connecting to Fyers WebSocket...
+13:41:52 INFO     Websocket Connected
+13:41:53 INFO     First tick | LTP:23774.25 | window opened @ 13:41:52 IST
+13:42:00 INFO     CANDLE ✓ | 29-May 13:41 | O:23774.25 H:23778.00 L:23774.25 C:23777.30 | total=1768
+13:42:01 INFO     Indicators calculated | RSI=47.9 | ST_dir=-1 | BB=23764.73/23774.98/23785.23
+13:42:01 INFO     Signal checking | close=23777.30 RSI=47.9 ST=-1 BB=23764.73/23774.98/23785.23
+13:42:01 ERROR    WebSocket error :send_alert() takes 1 positional argument but 2 were given
+13:43:01 INFO     CANDLE ✓ | 29-May 13:42 | O:23776.70 H:23780.30 L:23775.00 C:23777.15 | total=1769
+13:43:01 INFO     Indicators calculated | RSI=47.8 | ST_dir=-1 | BB=23767.25/23775.71/23784.16
+13:43:01 INFO     Signal checking | close=23777.15 RSI=47.8 ST=-1 BB=23767.25/23775.71/23784.16
+13:43:01 ERROR    WebSocket error :send_alert() takes 1 positional argument but 2 were given
+13:43:23 INFO        Fyers Signal Bot — Starting    
+13:43:23 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:43:23 INFO     Timeframe : 1 min
+13:43:23 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:43:23 INFO     Accesss token loaded....
+13:43:23 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:43:24 INFO     API response recieved | status ok
+13:43:24 INFO     Candles parsed | count=1769 | first=22-May 09:15 | last=29-May 13:43
+13:43:24 INFO     Historical candles loaded | count=1769 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 13:43:00+05:30
+13:43:24 INFO     Accesss token loaded....
+13:43:24 INFO     Connecting to Fyers WebSocket...
+13:43:26 INFO     Websocket Connected
+13:43:27 INFO     First tick | LTP:23777.45 | window opened @ 13:43:26 IST
+13:44:00 INFO     CANDLE ✓ | 29-May 13:43 | O:23777.45 H:23777.70 L:23773.50 C:23774.35 | total=1770
+13:44:01 INFO     Indicators calculated | RSI=45.1 | ST_dir=-1 | BB=23767.71/23776.00/23784.29
+13:44:01 INFO     Signal checking | close=23774.35 RSI=45.1 ST=-1 BB=23767.71/23776.00/23784.29
+13:44:02 INFO     Telegram alert sent 
+13:45:01 INFO     CANDLE ✓ | 29-May 13:44 | O:23774.65 H:23777.30 L:23771.55 C:23773.40 | total=1771
+13:45:01 INFO     Indicators calculated | RSI=44.4 | ST_dir=-1 | BB=23767.50/23775.87/23784.24
+13:45:01 INFO     Signal checking | close=23773.40 RSI=44.4 ST=-1 BB=23767.50/23775.87/23784.24
+13:45:02 INFO     Telegram alert sent 
+13:45:45 INFO        Fyers Signal Bot — Starting    
+13:45:45 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:45:45 INFO     Timeframe : 1 min
+13:45:45 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:45:45 INFO     Accesss token loaded....
+13:45:45 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:45:46 INFO     API response recieved | status ok
+13:45:46 INFO     Candles parsed | count=1771 | first=22-May 09:15 | last=29-May 13:45
+13:45:46 INFO     Historical candles loaded | count=1771 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 13:45:00+05:30
+13:45:46 INFO     Accesss token loaded....
+13:45:46 INFO     Connecting to Fyers WebSocket...
+13:45:48 INFO     Websocket Connected
+13:45:52 INFO     First tick | LTP:23773.55 | window opened @ 13:45:48 IST
+13:46:01 INFO     CANDLE ✓ | 29-May 13:45 | O:23773.55 H:23774.90 L:23771.45 C:23771.45 | total=1772
+13:46:01 INFO     Indicators calculated | RSI=43.1 | ST_dir=-1 | BB=23766.86/23775.38/23783.90
+13:46:01 INFO     Signal checking | close=23771.45 RSI=43.1 ST=-1 BB=23766.86/23775.38/23783.90
+13:46:06 INFO     Telegram alert sent 
+13:47:00 INFO     CANDLE ✓ | 29-May 13:46 | O:23771.30 H:23773.55 L:23766.20 C:23772.35 | total=1773
+13:47:00 INFO     Indicators calculated | RSI=44.0 | ST_dir=-1 | BB=23766.57/23775.17/23783.76
+13:47:00 INFO     Signal checking | close=23772.35 RSI=44.0 ST=-1 BB=23766.57/23775.17/23783.76
+13:47:02 INFO     Telegram alert sent 
+13:48:01 INFO     CANDLE ✓ | 29-May 13:47 | O:23772.90 H:23773.40 L:23765.40 C:23765.95 | total=1774
+13:48:01 INFO     Indicators calculated | RSI=38.9 | ST_dir=-1 | BB=23765.86/23775.01/23784.16
+13:48:01 INFO     Signal checking | close=23765.95 RSI=38.9 ST=-1 BB=23765.86/23775.01/23784.16
+13:48:12 INFO     Telegram alert sent 
+13:49:00 INFO     CANDLE ✓ | 29-May 13:48 | O:23765.65 H:23766.60 L:23758.35 C:23763.15 | total=1775
+13:49:01 INFO     Indicators calculated | RSI=36.9 | ST_dir=-1 | BB=23763.82/23774.39/23784.96
+13:49:01 INFO     Signal checking | close=23763.15 RSI=36.9 ST=-1 BB=23763.82/23774.39/23784.96
+13:49:02 INFO     Telegram alert sent 
+13:50:01 INFO     CANDLE ✓ | 29-May 13:49 | O:23762.95 H:23764.95 L:23752.05 C:23754.10 | total=1776
+13:50:01 INFO     Indicators calculated | RSI=31.2 | ST_dir=-1 | BB=23760.10/23772.82/23785.53
+13:50:01 INFO     Signal checking | close=23754.10 RSI=31.2 ST=-1 BB=23760.10/23772.82/23785.53
+13:50:12 INFO     Telegram alert sent 
+13:51:00 INFO     CANDLE ✓ | 29-May 13:50 | O:23753.95 H:23762.45 L:23753.40 C:23762.20 | total=1777
+13:51:00 INFO     Indicators calculated | RSI=40.1 | ST_dir=-1 | BB=23759.15/23771.78/23784.41
+13:51:00 INFO     Signal checking | close=23762.20 RSI=40.1 ST=-1 BB=23759.15/23771.78/23784.41
+13:51:02 INFO     Telegram alert sent 
+13:52:00 INFO     CANDLE ✓ | 29-May 13:51 | O:23762.45 H:23762.95 L:23750.20 C:23750.55 | total=1778
+13:52:01 INFO     Indicators calculated | RSI=33.4 | ST_dir=-1 | BB=23754.99/23770.40/23785.80
+13:52:01 INFO     Signal checking | close=23750.55 RSI=33.4 ST=-1 BB=23754.99/23770.40/23785.80
+13:52:02 INFO     Telegram alert sent 
+13:52:52 INFO        Fyers Signal Bot — Starting    
+13:52:52 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:52:52 INFO     Timeframe : 1 min
+13:52:52 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:52:52 INFO     Accesss token loaded....
+13:52:52 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:52:52 INFO     API response recieved | status ok
+13:52:52 INFO     Candles parsed | count=1778 | first=22-May 09:15 | last=29-May 13:52
+13:52:52 INFO     Historical candles loaded | count=1778 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 13:52:00+05:30
+13:52:52 INFO     Accesss token loaded....
+13:52:52 INFO     Connecting to Fyers WebSocket...
+13:52:54 INFO     Websocket Connected
+13:52:56 INFO     First tick | LTP:23744.25 | window opened @ 13:52:55 IST
+13:53:00 INFO     CANDLE ✓ | 29-May 13:52 | O:23744.25 H:23744.95 L:23743.30 C:23744.95 | total=1779
+13:53:01 INFO     Indicators calculated | RSI=32.5 | ST_dir=-1 | BB=23745.18/23767.28/23789.39
+13:53:01 INFO     Signal checking | close=23744.95 RSI=32.5 ST=-1 BB=23745.18/23767.28/23789.39
+13:53:01 INFO     Signal -> BUY
+13:53:02 INFO     Telegram alert sent 
+13:53:43 INFO        Fyers Signal Bot — Starting    
+13:53:43 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:53:43 INFO     Timeframe : 1 min
+13:53:43 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:53:43 INFO     Accesss token loaded....
+13:53:43 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:53:44 INFO     API response recieved | status ok
+13:53:44 INFO     Candles parsed | count=1779 | first=22-May 09:15 | last=29-May 13:53
+13:53:44 INFO     Historical candles loaded | count=1779 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 13:53:00+05:30
+13:53:44 INFO     Accesss token loaded....
+13:53:44 INFO     Connecting to Fyers WebSocket...
+13:53:46 INFO     Websocket Connected
+13:53:47 INFO     First tick | LTP:23748.25 | window opened @ 13:53:47 IST
+13:54:00 INFO     CANDLE ✓ | 29-May 13:53 | O:23748.25 H:23749.65 L:23745.70 C:23746.75 | total=1780
+13:54:01 INFO     Indicators calculated | RSI=33.7 | ST_dir=-1 | BB=23743.50/23766.25/23789.00
+13:54:01 INFO     Signal checking | close=23746.75 RSI=33.7 ST=-1 BB=23743.50/23766.25/23789.00
+13:54:02 INFO     Telegram alert sent 
+13:55:00 INFO     CANDLE ✓ | 29-May 13:54 | O:23745.30 H:23748.75 L:23740.00 C:23746.05 | total=1781
+13:55:01 INFO     Indicators calculated | RSI=33.4 | ST_dir=-1 | BB=23740.82/23764.73/23788.63
+13:55:01 INFO     Signal checking | close=23746.05 RSI=33.4 ST=-1 BB=23740.82/23764.73/23788.63
+13:55:02 INFO     Telegram alert sent 
+13:56:01 INFO     CANDLE ✓ | 29-May 13:55 | O:23746.10 H:23749.40 L:23743.55 C:23748.55 | total=1782
+13:56:01 INFO     Indicators calculated | RSI=36.1 | ST_dir=-1 | BB=23738.85/23763.76/23788.66
+13:56:01 INFO     Signal checking | close=23748.55 RSI=36.1 ST=-1 BB=23738.85/23763.76/23788.66
+13:56:02 INFO     Telegram alert sent 
+13:57:01 INFO     CANDLE ✓ | 29-May 13:56 | O:23748.50 H:23753.30 L:23746.30 C:23752.25 | total=1783
+13:57:01 INFO     Indicators calculated | RSI=39.9 | ST_dir=-1 | BB=23737.84/23762.58/23787.32
+13:57:01 INFO     Signal checking | close=23752.25 RSI=39.9 ST=-1 BB=23737.84/23762.58/23787.32
+13:57:12 INFO     Telegram alert sent 
+13:58:01 INFO     CANDLE ✓ | 29-May 13:57 | O:23752.55 H:23763.30 L:23752.00 C:23763.30 | total=1784
+13:58:01 INFO     Indicators calculated | RSI=49.8 | ST_dir=-1 | BB=23738.04/23761.94/23785.83
+13:58:01 INFO     Signal checking | close=23763.30 RSI=49.8 ST=-1 BB=23738.04/23761.94/23785.83
+13:58:02 INFO     Telegram alert sent 
+13:58:58 INFO        Fyers Signal Bot — Starting    
+13:58:58 INFO     Symbol    : NSE:NIFTY50-INDEX
+13:58:58 INFO     Timeframe : 1 min
+13:58:58 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+13:58:58 INFO     Accesss token loaded....
+13:58:58 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+13:58:58 INFO     API response recieved | status ok
+13:58:58 INFO     Candles parsed | count=1784 | first=22-May 09:15 | last=29-May 13:58
+13:58:58 INFO     Historical candles loaded | count=1784 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 13:58:00+05:30
+13:58:58 INFO     Accesss token loaded....
+13:58:58 INFO     Connecting to Fyers WebSocket...
+13:59:00 INFO     Websocket Connected
+13:59:01 INFO     First tick | LTP:23756.45 | window opened @ 13:59:00 IST
+14:00:01 INFO     CANDLE ✓ | 29-May 13:59 | O:23756.45 H:23759.10 L:23753.70 C:23757.90 | total=1785
+14:00:01 INFO     Indicators calculated | RSI=45.4 | ST_dir=-1 | BB=23738.56/23761.72/23784.87
+14:00:01 INFO     Signal checking | close=23757.90 RSI=45.4 ST=-1 BB=23738.56/23761.72/23784.87
+14:00:02 INFO     Telegram alert sent 
+14:01:01 INFO     CANDLE ✓ | 29-May 14:00 | O:23758.05 H:23759.50 L:23750.75 C:23751.05 | total=1786
+14:01:01 INFO     Indicators calculated | RSI=40.9 | ST_dir=-1 | BB=23737.98/23760.42/23782.85
+14:01:01 INFO     Signal checking | close=23751.05 RSI=40.9 ST=-1 BB=23737.98/23760.42/23782.85
+14:01:02 INFO     Telegram alert sent 
+14:02:00 INFO     CANDLE ✓ | 29-May 14:01 | O:23750.50 H:23751.60 L:23742.75 C:23742.95 | total=1787
+14:02:01 INFO     Indicators calculated | RSI=36.3 | ST_dir=-1 | BB=23736.45/23758.70/23780.95
+14:02:01 INFO     Signal checking | close=23742.95 RSI=36.3 ST=-1 BB=23736.45/23758.70/23780.95
+14:02:02 INFO     Telegram alert sent 
+14:03:00 INFO     CANDLE ✓ | 29-May 14:02 | O:23743.55 H:23752.65 L:23743.55 C:23749.25 | total=1788
+14:03:00 INFO     Indicators calculated | RSI=41.8 | ST_dir=-1 | BB=23736.47/23757.30/23778.14
+14:03:00 INFO     Signal checking | close=23749.25 RSI=41.8 ST=-1 BB=23736.47/23757.30/23778.14
+14:03:02 INFO     Telegram alert sent 
+14:04:00 INFO     CANDLE ✓ | 29-May 14:03 | O:23749.35 H:23753.60 L:23743.20 C:23744.70 | total=1789
+14:04:01 INFO     Indicators calculated | RSI=39.2 | ST_dir=-1 | BB=23735.90/23755.82/23775.74
+14:04:01 INFO     Signal checking | close=23744.70 RSI=39.2 ST=-1 BB=23735.90/23755.82/23775.74
+14:04:12 INFO     Telegram alert sent 
+14:05:00 INFO     CANDLE ✓ | 29-May 14:04 | O:23743.90 H:23749.05 L:23743.35 C:23747.15 | total=1790
+14:05:01 INFO     Indicators calculated | RSI=41.3 | ST_dir=-1 | BB=23736.05/23754.51/23772.96
+14:05:01 INFO     Signal checking | close=23747.15 RSI=41.3 ST=-1 BB=23736.05/23754.51/23772.96
+14:05:02 INFO     Telegram alert sent 
+14:06:00 INFO     CANDLE ✓ | 29-May 14:05 | O:23747.50 H:23748.00 L:23731.70 C:23732.95 | total=1791
+14:06:00 INFO     Indicators calculated | RSI=33.9 | ST_dir=-1 | BB=23733.55/23752.58/23771.62
+14:06:00 INFO     Signal checking | close=23732.95 RSI=33.9 ST=-1 BB=23733.55/23752.58/23771.62
+14:06:02 INFO     Telegram alert sent 
+14:07:01 INFO     CANDLE ✓ | 29-May 14:06 | O:23732.10 H:23748.20 L:23731.70 C:23742.90 | total=1792
+14:07:01 INFO     Indicators calculated | RSI=41.8 | ST_dir=-1 | BB=23734.24/23751.07/23767.90
+14:07:01 INFO     Signal checking | close=23742.90 RSI=41.8 ST=-1 BB=23734.24/23751.07/23767.90
+14:07:02 INFO     Telegram alert sent 
+14:07:26 INFO     Websocket Connected
+14:08:00 INFO     CANDLE ✓ | 29-May 14:07 | O:23742.95 H:23745.65 L:23742.00 C:23745.30 | total=1793
+14:08:01 INFO     Indicators calculated | RSI=43.5 | ST_dir=-1 | BB=23734.57/23750.04/23765.51
+14:08:01 INFO     Signal checking | close=23745.30 RSI=43.5 ST=-1 BB=23734.57/23750.04/23765.51
+14:08:02 INFO     Telegram alert sent 
+14:09:44 INFO        Fyers Signal Bot — Starting    
+14:09:44 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:09:44 INFO     Timeframe : 1 min
+14:09:44 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:09:44 INFO     Accesss token loaded....
+14:09:44 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:09:45 INFO     API response recieved | status ok
+14:09:45 INFO     Candles parsed | count=1795 | first=22-May 09:15 | last=29-May 14:09
+14:09:45 INFO     Historical candles loaded | count=1795 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:09:00+05:30
+14:09:45 INFO     Accesss token loaded....
+14:09:45 INFO     Connecting to Fyers WebSocket...
+14:09:47 INFO     Websocket Connected
+14:09:49 INFO     First tick | LTP:23746.30 | window opened @ 14:09:48 IST
+14:10:01 INFO     CANDLE ✓ | 29-May 14:09 | O:23746.30 H:23746.30 L:23744.20 C:23744.20 | total=1796
+14:10:01 INFO     Indicators calculated | RSI=43.4 | ST_dir=-1 | BB=23735.47/23748.16/23760.84
+14:10:01 INFO     Signal checking | close=23744.20 RSI=43.4 ST=-1 BB=23735.47/23748.16/23760.84
+14:10:02 INFO     Telegram alert sent 
+14:11:00 INFO     CANDLE ✓ | 29-May 14:10 | O:23744.60 H:23747.05 L:23742.00 C:23744.10 | total=1797
+14:11:01 INFO     Indicators calculated | RSI=43.4 | ST_dir=-1 | BB=23735.08/23747.86/23760.64
+14:11:01 INFO     Signal checking | close=23744.10 RSI=43.4 ST=-1 BB=23735.08/23747.86/23760.64
+14:11:02 INFO     Telegram alert sent 
+14:12:01 INFO     CANDLE ✓ | 29-May 14:11 | O:23744.00 H:23746.60 L:23743.60 C:23745.85 | total=1798
+14:12:01 INFO     Indicators calculated | RSI=44.9 | ST_dir=-1 | BB=23735.17/23747.91/23760.65
+14:12:01 INFO     Signal checking | close=23745.85 RSI=44.9 ST=-1 BB=23735.17/23747.91/23760.65
+14:12:02 INFO     Telegram alert sent 
+14:12:50 INFO        Fyers Signal Bot — Starting    
+14:12:50 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:12:50 INFO     Timeframe : 1 min
+14:12:50 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:12:50 INFO     Accesss token loaded....
+14:12:50 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:12:50 INFO     API response recieved | status ok
+14:12:50 INFO     Candles parsed | count=1798 | first=22-May 09:15 | last=29-May 14:12
+14:12:50 INFO     Historical candles loaded | count=1798 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:12:00+05:30
+14:12:50 INFO     Accesss token loaded....
+14:12:50 INFO     Connecting to Fyers WebSocket...
+14:12:52 INFO     Websocket Connected
+14:12:54 INFO     First tick | LTP:23746.45 | window opened @ 14:12:53 IST
+14:13:01 INFO     CANDLE ✓ | 29-May 14:12 | O:23746.45 H:23746.75 L:23745.35 C:23745.70 | total=1799
+14:13:01 INFO     Indicators calculated | RSI=44.8 | ST_dir=-1 | BB=23735.15/23747.90/23760.65
+14:13:01 INFO     Signal checking | close=23745.70 RSI=44.8 ST=-1 BB=23735.15/23747.90/23760.65
+14:13:02 INFO     Telegram alert sent 
+14:14:00 INFO     CANDLE ✓ | 29-May 14:13 | O:23744.90 H:23746.65 L:23743.65 C:23746.65 | total=1800
+14:14:01 INFO     Indicators calculated | RSI=45.7 | ST_dir=-1 | BB=23735.20/23747.93/23760.66
+14:14:01 INFO     Signal checking | close=23746.65 RSI=45.7 ST=-1 BB=23735.20/23747.93/23760.66
+14:14:02 INFO     Telegram alert sent 
+14:18:34 INFO        Fyers Signal Bot — Starting    
+14:18:34 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:18:34 INFO     Timeframe : 1 min
+14:18:34 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:18:34 INFO     Accesss token loaded....
+14:18:34 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:18:34 INFO     API response recieved | status ok
+14:18:34 INFO     Candles parsed | count=1804 | first=22-May 09:15 | last=29-May 14:18
+14:18:34 INFO     Historical candles loaded | count=1804 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:18:00+05:30
+14:18:34 INFO     Accesss token loaded....
+14:18:34 INFO     Connecting to Fyers WebSocket...
+14:18:36 INFO     Websocket Connected
+14:18:38 INFO     First tick | LTP:23745.50 | window opened @ 14:18:37 IST
+14:19:00 INFO     CANDLE ✓ | 29-May 14:18 | O:23745.50 H:23747.70 L:23741.70 C:23743.05 | total=1805
+14:19:01 INFO     Indicators calculated | RSI=45.1 | ST_dir=-1 | BB=23735.84/23744.38/23752.92
+14:19:01 INFO     Signal checking | close=23743.05 RSI=45.1 ST=-1 BB=23735.84/23744.38/23752.92
+14:19:02 INFO     Telegram alert sent 
+14:20:00 INFO     CANDLE ✓ | 29-May 14:19 | O:23743.15 H:23744.05 L:23735.00 C:23736.80 | total=1806
+14:20:01 INFO     Indicators calculated | RSI=40.4 | ST_dir=-1 | BB=23735.12/23743.66/23752.20
+14:20:01 INFO     Signal checking | close=23736.80 RSI=40.4 ST=-1 BB=23735.12/23743.66/23752.20
+14:20:02 INFO     Telegram alert sent 
+14:25:51 INFO        Fyers Signal Bot — Starting    
+14:25:51 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:25:51 INFO     Timeframe : 1 min
+14:25:51 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:25:51 INFO     Accesss token loaded....
+14:25:51 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:25:52 INFO     API response recieved | status ok
+14:25:52 INFO     Candles parsed | count=1811 | first=22-May 09:15 | last=29-May 14:25
+14:25:52 INFO     Historical candles loaded | count=1811 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:25:00+05:30
+14:25:52 INFO     Accesss token loaded....
+14:25:52 INFO     Connecting to Fyers WebSocket...
+14:25:54 INFO     Websocket Connected
+14:25:55 INFO     First tick | LTP:23744.90 | window opened @ 14:25:54 IST
+14:26:01 INFO     CANDLE ✓ | 29-May 14:25 | O:23744.90 H:23745.65 L:23744.80 C:23745.55 | total=1812
+14:26:01 INFO     Indicators calculated | RSI=49.0 | ST_dir=-1 | BB=23734.98/23743.98/23752.99
+14:26:01 INFO     Signal checking | close=23745.55 RSI=49.0 ST=-1 BB=23734.98/23743.98/23752.99
+14:26:03 INFO     Telegram alert sent 
+14:27:00 INFO     CANDLE ✓ | 29-May 14:26 | O:23746.15 H:23751.05 L:23745.80 C:23747.25 | total=1813
+14:27:01 INFO     Indicators calculated | RSI=50.5 | ST_dir=-1 | BB=23734.98/23744.08/23753.18
+14:27:01 INFO     Signal checking | close=23747.25 RSI=50.5 ST=-1 BB=23734.98/23744.08/23753.18
+14:27:02 INFO     Telegram alert sent 
+14:28:01 INFO     CANDLE ✓ | 29-May 14:27 | O:23746.75 H:23754.95 L:23746.75 C:23754.65 | total=1814
+14:28:01 INFO     Indicators calculated | RSI=56.7 | ST_dir=-1 | BB=23734.45/23744.27/23754.08
+14:28:01 INFO     Signal checking | close=23754.65 RSI=56.7 ST=-1 BB=23734.45/23744.27/23754.08
+14:28:01 INFO     Signal -> SELL
+14:28:02 INFO     Telegram alert sent 
+14:28:50 INFO        Fyers Signal Bot — Starting    
+14:28:50 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:28:50 INFO     Timeframe : 1 min
+14:28:50 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:28:50 INFO     Accesss token loaded....
+14:28:50 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:28:50 INFO     API response recieved | status ok
+14:28:50 INFO     Candles parsed | count=1814 | first=22-May 09:15 | last=29-May 14:28
+14:28:50 INFO     Historical candles loaded | count=1814 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:28:00+05:30
+14:28:50 INFO     Accesss token loaded....
+14:28:50 INFO     Connecting to Fyers WebSocket...
+14:28:52 INFO     Websocket Connected
+14:28:53 INFO     First tick | LTP:23757.20 | window opened @ 14:28:53 IST
+14:29:01 INFO     CANDLE ✓ | 29-May 14:28 | O:23757.20 H:23759.55 L:23757.20 C:23758.10 | total=1815
+14:29:01 INFO     Indicators calculated | RSI=59.0 | ST_dir=1 | BB=23732.94/23745.54/23758.14
+14:29:01 INFO     Signal checking | close=23758.10 RSI=59.0 ST=1 BB=23732.94/23745.54/23758.14
+14:29:13 INFO     Telegram alert sent 
+14:29:46 INFO        Fyers Signal Bot — Starting    
+14:29:46 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:29:46 INFO     Timeframe : 1 min
+14:29:46 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:29:46 INFO     Accesss token loaded....
+14:29:46 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:29:47 INFO     API response recieved | status ok
+14:29:47 INFO     Candles parsed | count=1815 | first=22-May 09:15 | last=29-May 14:29
+14:29:47 INFO     Historical candles loaded | count=1815 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:29:00+05:30
+14:29:47 INFO     Accesss token loaded....
+14:29:47 INFO     Connecting to Fyers WebSocket...
+14:29:49 INFO     Websocket Connected
+14:29:50 INFO     First tick | LTP:23761.50 | window opened @ 14:29:50 IST
+14:30:01 INFO     CANDLE ✓ | 29-May 14:29 | O:23761.50 H:23762.25 L:23758.85 C:23759.85 | total=1816
+14:30:01 INFO     Indicators calculated | RSI=59.5 | ST_dir=1 | BB=23739.08/23746.59/23754.09
+14:30:01 INFO     Signal checking | close=23759.85 RSI=59.5 ST=1 BB=23739.08/23746.59/23754.09
+14:30:01 INFO     Signal -> SELL
+14:30:02 INFO     Telegram alert sent 
+14:31:01 INFO     CANDLE ✓ | 29-May 14:30 | O:23759.55 H:23779.10 L:23759.55 C:23775.55 | total=1817
+14:31:01 INFO     Indicators calculated | RSI=68.9 | ST_dir=1 | BB=23738.17/23748.07/23757.98
+14:31:01 INFO     Signal checking | close=23775.55 RSI=68.9 ST=1 BB=23738.17/23748.07/23757.98
+14:31:01 INFO     Signal -> SELL
+14:31:02 INFO     Telegram alert sent 
+14:32:01 INFO     CANDLE ✓ | 29-May 14:31 | O:23775.75 H:23777.10 L:23768.35 C:23774.85 | total=1818
+14:32:01 INFO     Indicators calculated | RSI=68.1 | ST_dir=1 | BB=23737.98/23749.53/23761.08
+14:32:01 INFO     Signal checking | close=23774.85 RSI=68.1 ST=1 BB=23737.98/23749.53/23761.08
+14:32:01 INFO     Signal -> SELL
+14:32:02 INFO     Telegram alert sent 
+14:33:01 INFO     CANDLE ✓ | 29-May 14:32 | O:23774.60 H:23786.20 L:23774.10 C:23786.20 | total=1819
+14:33:01 INFO     Indicators calculated | RSI=73.3 | ST_dir=1 | BB=23737.38/23751.51/23765.64
+14:33:01 INFO     Signal checking | close=23786.20 RSI=73.3 ST=1 BB=23737.38/23751.51/23765.64
+14:33:01 INFO     Signal -> SELL
+14:33:02 INFO     Telegram alert sent 
+14:34:00 INFO     CANDLE ✓ | 29-May 14:33 | O:23787.95 H:23799.25 L:23785.65 C:23798.25 | total=1820
+14:34:01 INFO     Indicators calculated | RSI=77.4 | ST_dir=1 | BB=23736.76/23754.20/23771.64
+14:34:01 INFO     Signal checking | close=23798.25 RSI=77.4 ST=1 BB=23736.76/23754.20/23771.64
+14:34:01 INFO     Signal -> SELL
+14:34:02 INFO     Telegram alert sent 
+14:35:00 INFO     CANDLE ✓ | 29-May 14:34 | O:23798.05 H:23802.05 L:23791.20 C:23792.55 | total=1821
+14:35:00 INFO     Indicators calculated | RSI=71.7 | ST_dir=1 | BB=23737.72/23756.81/23775.90
+14:35:00 INFO     Signal checking | close=23792.55 RSI=71.7 ST=1 BB=23737.72/23756.81/23775.90
+14:35:00 INFO     Signal -> SELL
+14:35:02 INFO     Telegram alert sent 
+14:36:00 INFO     CANDLE ✓ | 29-May 14:35 | O:23792.65 H:23798.80 L:23792.40 C:23792.70 | total=1822
+14:36:01 INFO     Indicators calculated | RSI=71.8 | ST_dir=1 | BB=23739.53/23759.60/23779.68
+14:36:01 INFO     Signal checking | close=23792.70 RSI=71.8 ST=1 BB=23739.53/23759.60/23779.68
+14:36:01 INFO     Signal -> SELL
+14:36:02 INFO     Telegram alert sent 
+14:37:00 INFO     CANDLE ✓ | 29-May 14:36 | O:23793.55 H:23795.55 L:23791.25 C:23794.15 | total=1823
+14:37:01 INFO     Indicators calculated | RSI=72.4 | ST_dir=1 | BB=23741.09/23762.16/23783.24
+14:37:01 INFO     Signal checking | close=23794.15 RSI=72.4 ST=1 BB=23741.09/23762.16/23783.24
+14:37:01 INFO     Signal -> SELL
+14:37:02 INFO     Telegram alert sent 
+14:38:00 INFO     CANDLE ✓ | 29-May 14:37 | O:23794.00 H:23800.05 L:23787.15 C:23787.15 | total=1824
+14:38:00 INFO     Indicators calculated | RSI=65.2 | ST_dir=1 | BB=23743.15/23764.40/23785.65
+14:38:00 INFO     Signal checking | close=23787.15 RSI=65.2 ST=1 BB=23743.15/23764.40/23785.65
+14:38:00 INFO     Signal -> SELL
+14:38:01 INFO     Telegram alert sent 
+14:39:01 INFO     CANDLE ✓ | 29-May 14:38 | O:23787.30 H:23788.30 L:23782.30 C:23786.60 | total=1825
+14:39:01 INFO     Indicators calculated | RSI=64.7 | ST_dir=1 | BB=23746.13/23766.89/23787.64
+14:39:01 INFO     Signal checking | close=23786.60 RSI=64.7 ST=1 BB=23746.13/23766.89/23787.64
+14:39:12 INFO     Telegram alert sent 
+14:40:00 INFO     CANDLE ✓ | 29-May 14:39 | O:23786.70 H:23792.35 L:23784.20 C:23789.60 | total=1826
+14:40:00 INFO     Indicators calculated | RSI=66.3 | ST_dir=1 | BB=23749.85/23769.67/23789.49
+14:40:00 INFO     Signal checking | close=23789.60 RSI=66.3 ST=1 BB=23749.85/23769.67/23789.49
+14:40:00 INFO     Signal -> SELL
+14:40:01 INFO     Telegram alert sent 
+14:41:00 INFO     CANDLE ✓ | 29-May 14:40 | O:23789.25 H:23789.90 L:23782.90 C:23784.15 | total=1827
+14:41:00 INFO     Indicators calculated | RSI=60.8 | ST_dir=1 | BB=23752.76/23771.75/23790.74
+14:41:00 INFO     Signal checking | close=23784.15 RSI=60.8 ST=1 BB=23752.76/23771.75/23790.74
+14:41:02 INFO     Telegram alert sent 
+14:42:01 INFO     CANDLE ✓ | 29-May 14:41 | O:23783.85 H:23788.60 L:23781.20 C:23785.15 | total=1828
+14:42:01 INFO     Indicators calculated | RSI=61.4 | ST_dir=1 | BB=23755.62/23773.75/23791.88
+14:42:01 INFO     Signal checking | close=23785.15 RSI=61.4 ST=1 BB=23755.62/23773.75/23791.88
+14:42:02 INFO     Telegram alert sent 
+14:42:50 INFO        Fyers Signal Bot — Starting    
+14:42:50 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:42:50 INFO     Timeframe : 1 min
+14:42:50 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:42:50 INFO     Accesss token loaded....
+14:42:50 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:42:51 INFO     API response recieved | status ok
+14:42:51 INFO     Candles parsed | count=1828 | first=22-May 09:15 | last=29-May 14:42
+14:42:51 INFO     Historical candles loaded | count=1828 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:42:00+05:30
+14:42:51 INFO     Accesss token loaded....
+14:42:51 INFO     Connecting to Fyers WebSocket...
+14:42:53 INFO     Websocket Connected
+14:42:54 INFO     First tick | LTP:23792.50 | window opened @ 14:42:53 IST
+14:43:01 INFO     CANDLE ✓ | 29-May 14:42 | O:23792.50 H:23794.00 L:23790.65 C:23791.35 | total=1829
+14:43:01 INFO     Indicators calculated | RSI=64.3 | ST_dir=1 | BB=23775.63/23777.42/23779.21
+14:43:01 INFO     Signal checking | close=23791.35 RSI=64.3 ST=1 BB=23775.63/23777.42/23779.21
+14:43:01 INFO     Signal -> SELL
+14:43:02 INFO     Telegram alert sent 
+14:44:00 INFO     CANDLE ✓ | 29-May 14:43 | O:23791.30 H:23794.25 L:23787.25 C:23787.45 | total=1830
+14:44:00 INFO     Indicators calculated | RSI=60.2 | ST_dir=1 | BB=23777.65/23779.32/23781.00
+14:44:00 INFO     Signal checking | close=23787.45 RSI=60.2 ST=1 BB=23777.65/23779.32/23781.00
+14:44:00 INFO     Signal -> SELL
+14:44:02 INFO     Telegram alert sent 
+14:45:01 INFO     CANDLE ✓ | 29-May 14:44 | O:23786.20 H:23788.60 L:23782.60 C:23786.10 | total=1831
+14:45:01 INFO     Indicators calculated | RSI=58.9 | ST_dir=1 | BB=23779.87/23781.35/23782.83
+14:45:01 INFO     Signal checking | close=23786.10 RSI=58.9 ST=1 BB=23779.87/23781.35/23782.83
+14:45:01 INFO     Signal -> SELL
+14:45:02 INFO     Telegram alert sent 
+14:45:35 INFO        Fyers Signal Bot — Starting    
+14:45:35 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:45:35 INFO     Timeframe : 1 min
+14:45:35 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:45:35 INFO     Accesss token loaded....
+14:45:35 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:45:35 INFO     API response recieved | status ok
+14:45:35 INFO     Candles parsed | count=1831 | first=22-May 09:15 | last=29-May 14:45
+14:45:35 INFO     Historical candles loaded | count=1831 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:45:00+05:30
+14:45:35 INFO     Accesss token loaded....
+14:45:35 INFO     Connecting to Fyers WebSocket...
+14:45:37 INFO     Websocket Connected
+14:45:39 INFO     First tick | LTP:23783.60 | window opened @ 14:45:38 IST
+14:46:01 INFO     CANDLE ✓ | 29-May 14:45 | O:23783.60 H:23784.75 L:23780.50 C:23782.10 | total=1832
+14:46:01 INFO     Indicators calculated | RSI=55.6 | ST_dir=1 | BB=23781.47/23782.69/23783.91
+14:46:01 INFO     Signal checking | close=23782.10 RSI=55.6 ST=1 BB=23781.47/23782.69/23783.91
+14:46:02 INFO     Telegram alert sent 
+14:47:00 INFO     CANDLE ✓ | 29-May 14:46 | O:23782.05 H:23795.30 L:23778.25 C:23791.85 | total=1833
+14:47:01 INFO     Indicators calculated | RSI=62.6 | ST_dir=1 | BB=23783.51/23784.55/23785.59
+14:47:01 INFO     Signal checking | close=23791.85 RSI=62.6 ST=1 BB=23783.51/23784.55/23785.59
+14:47:01 INFO     Signal -> SELL
+14:47:12 INFO     Telegram alert sent 
+14:48:00 INFO     CANDLE ✓ | 29-May 14:47 | O:23792.25 H:23793.30 L:23781.85 C:23783.30 | total=1834
+14:48:00 INFO     Indicators calculated | RSI=54.5 | ST_dir=1 | BB=23784.98/23785.81/23786.65
+14:48:00 INFO     Signal checking | close=23783.30 RSI=54.5 ST=1 BB=23784.98/23785.81/23786.65
+14:48:02 INFO     Telegram alert sent 
+14:49:01 INFO     CANDLE ✓ | 29-May 14:48 | O:23783.60 H:23785.05 L:23779.35 C:23783.35 | total=1835
+14:49:01 INFO     Indicators calculated | RSI=54.5 | ST_dir=1 | BB=23786.39/23786.97/23787.56
+14:49:01 INFO     Signal checking | close=23783.35 RSI=54.5 ST=1 BB=23786.39/23786.97/23787.56
+14:49:01 INFO     Signal -> BUY
+14:49:02 INFO     Telegram alert sent 
+14:49:57 INFO        Fyers Signal Bot — Starting    
+14:49:57 INFO     Symbol    : NSE:NIFTY50-INDEX
+14:49:57 INFO     Timeframe : 1 min
+14:49:57 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+14:49:57 INFO     Accesss token loaded....
+14:49:57 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+14:49:57 INFO     API response recieved | status ok
+14:49:57 INFO     Candles parsed | count=1835 | first=22-May 09:15 | last=29-May 14:49
+14:49:57 INFO     Historical candles loaded | count=1835 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 14:49:00+05:30
+14:49:57 INFO     Accesss token loaded....
+14:49:57 INFO     Connecting to Fyers WebSocket...
+14:49:59 INFO     Websocket Connected
+14:50:01 INFO     First tick | LTP:23785.75 | window opened @ 14:50:00 IST
+14:51:01 INFO     CANDLE ✓ | 29-May 14:50 | O:23785.75 H:23787.70 L:23781.20 C:23781.85 | total=1836
+14:51:01 INFO     Indicators calculated | RSI=52.9 | ST_dir=1 | BB=23781.95/23787.29/23792.62
+14:51:01 INFO     Signal checking | close=23781.85 RSI=52.9 ST=1 BB=23781.95/23787.29/23792.62
+14:51:02 INFO     Telegram alert sent 
+14:52:01 INFO     CANDLE ✓ | 29-May 14:51 | O:23781.95 H:23781.95 L:23768.40 C:23776.80 | total=1837
+14:52:01 INFO     Indicators calculated | RSI=48.7 | ST_dir=1 | BB=23782.28/23787.39/23792.49
+14:52:01 INFO     Signal checking | close=23776.80 RSI=48.7 ST=1 BB=23782.28/23787.39/23792.49
+14:52:01 INFO     Signal -> BUY
+14:52:02 INFO     Telegram alert sent 
+14:53:00 INFO     CANDLE ✓ | 29-May 14:52 | O:23776.65 H:23778.35 L:23772.90 C:23773.80 | total=1838
+14:53:01 INFO     Indicators calculated | RSI=46.3 | ST_dir=1 | BB=23780.82/23786.76/23792.71
+14:53:01 INFO     Signal checking | close=23773.80 RSI=46.3 ST=1 BB=23780.82/23786.76/23792.71
+14:53:01 INFO     Signal -> BUY
+14:53:02 INFO     Telegram alert sent 
+14:54:00 INFO     CANDLE ✓ | 29-May 14:53 | O:23773.30 H:23781.05 L:23772.35 C:23776.30 | total=1839
+14:54:00 INFO     Indicators calculated | RSI=48.6 | ST_dir=1 | BB=23779.96/23785.65/23791.34
+14:54:00 INFO     Signal checking | close=23776.30 RSI=48.6 ST=1 BB=23779.96/23785.65/23791.34
+14:54:02 INFO     Telegram alert sent 
+14:55:01 INFO     CANDLE ✓ | 29-May 14:54 | O:23777.40 H:23778.90 L:23771.70 C:23776.60 | total=1840
+14:55:01 INFO     Indicators calculated | RSI=48.8 | ST_dir=1 | BB=23779.06/23784.85/23790.64
+14:55:01 INFO     Signal checking | close=23776.60 RSI=48.8 ST=1 BB=23779.06/23784.85/23790.64
+14:55:01 INFO     Signal -> BUY
+14:55:02 INFO     Telegram alert sent 
+14:56:00 INFO     CANDLE ✓ | 29-May 14:55 | O:23775.65 H:23779.05 L:23765.50 C:23766.35 | total=1841
+14:56:01 INFO     Indicators calculated | RSI=40.8 | ST_dir=-1 | BB=23776.73/23783.51/23790.29
+14:56:01 INFO     Signal checking | close=23766.35 RSI=40.8 ST=-1 BB=23776.73/23783.51/23790.29
+14:56:02 INFO     Telegram alert sent 
+14:57:00 INFO     CANDLE ✓ | 29-May 14:56 | O:23766.20 H:23770.75 L:23766.15 C:23769.00 | total=1842
+14:57:00 INFO     Indicators calculated | RSI=43.4 | ST_dir=-1 | BB=23775.22/23782.25/23789.28
+14:57:00 INFO     Signal checking | close=23769.00 RSI=43.4 ST=-1 BB=23775.22/23782.25/23789.28
+14:57:00 INFO     Signal -> BUY
+14:57:02 INFO     Telegram alert sent 
+14:58:01 INFO     CANDLE ✓ | 29-May 14:57 | O:23769.70 H:23777.95 L:23767.60 C:23776.15 | total=1843
+14:58:01 INFO     Indicators calculated | RSI=49.8 | ST_dir=-1 | BB=23774.64/23781.66/23788.69
+14:58:01 INFO     Signal checking | close=23776.15 RSI=49.8 ST=-1 BB=23774.64/23781.66/23788.69
+14:58:02 INFO     Telegram alert sent 
+14:59:01 INFO     CANDLE ✓ | 29-May 14:58 | O:23776.70 H:23787.25 L:23774.05 C:23774.45 | total=1844
+14:59:01 INFO     Indicators calculated | RSI=48.4 | ST_dir=-1 | BB=23773.96/23781.06/23788.15
+14:59:01 INFO     Signal checking | close=23774.45 RSI=48.4 ST=-1 BB=23773.96/23781.06/23788.15
+14:59:02 INFO     Telegram alert sent 
+15:00:01 INFO     CANDLE ✓ | 29-May 14:59 | O:23775.00 H:23775.05 L:23752.45 C:23773.10 | total=1845
+15:00:01 INFO     Indicators calculated | RSI=47.2 | ST_dir=-1 | BB=23773.22/23780.23/23787.24
+15:00:01 INFO     Signal checking | close=23773.10 RSI=47.2 ST=-1 BB=23773.22/23780.23/23787.24
+15:00:02 INFO     Telegram alert sent 
+15:01:01 INFO     CANDLE ✓ | 29-May 15:00 | O:23773.30 H:23773.30 L:23684.80 C:23684.90 | total=1846
+15:01:01 INFO     Indicators calculated | RSI=17.8 | ST_dir=-1 | BB=23752.88/23775.26/23797.63
+15:01:01 INFO     Signal checking | close=23684.90 RSI=17.8 ST=-1 BB=23752.88/23775.26/23797.63
+15:01:02 INFO     Telegram alert sent 
+15:02:00 INFO     CANDLE ✓ | 29-May 15:01 | O:23682.25 H:23683.95 L:23639.90 C:23639.90 | total=1847
+15:02:00 INFO     Indicators calculated | RSI=13.3 | ST_dir=-1 | BB=23730.52/23767.99/23805.47
+15:02:00 INFO     Signal checking | close=23639.90 RSI=13.3 ST=-1 BB=23730.52/23767.99/23805.47
+15:02:00 INFO     Signal -> BUY
+15:02:01 INFO     Telegram alert sent 
+15:03:01 INFO     CANDLE ✓ | 29-May 15:02 | O:23640.65 H:23640.65 L:23607.35 C:23611.45 | total=1848
+15:03:01 INFO     Indicators calculated | RSI=11.3 | ST_dir=-1 | BB=23708.21/23759.00/23809.79
+15:03:01 INFO     Signal checking | close=23611.45 RSI=11.3 ST=-1 BB=23708.21/23759.00/23809.79
+15:03:01 INFO     Signal -> BUY
+15:03:02 INFO     Telegram alert sent 
+15:04:00 INFO     CANDLE ✓ | 29-May 15:03 | O:23610.10 H:23610.10 L:23586.15 C:23588.95 | total=1849
+15:04:01 INFO     Indicators calculated | RSI=10.0 | ST_dir=-1 | BB=23686.20/23749.13/23812.06
+15:04:01 INFO     Signal checking | close=23588.95 RSI=10.0 ST=-1 BB=23686.20/23749.13/23812.06
+15:04:01 INFO     Signal -> BUY
+15:04:02 INFO     Telegram alert sent 
+15:05:00 INFO     CANDLE ✓ | 29-May 15:04 | O:23587.75 H:23589.55 L:23566.60 C:23569.65 | total=1850
+15:05:00 INFO     Indicators calculated | RSI=9.1 | ST_dir=-1 | BB=23664.41/23738.31/23812.20
+15:05:00 INFO     Signal checking | close=23569.65 RSI=9.1 ST=-1 BB=23664.41/23738.31/23812.20
+15:05:00 INFO     Signal -> BUY
+15:05:01 INFO     Telegram alert sent 
+15:06:01 INFO     CANDLE ✓ | 29-May 15:05 | O:23570.60 H:23571.15 L:23551.10 C:23556.50 | total=1851
+15:06:01 INFO     Indicators calculated | RSI=8.5 | ST_dir=-1 | BB=23643.57/23727.03/23810.48
+15:06:01 INFO     Signal checking | close=23556.50 RSI=8.5 ST=-1 BB=23643.57/23727.03/23810.48
+15:06:01 INFO     Signal -> BUY
+15:06:02 INFO     Telegram alert sent 
+15:07:01 INFO     CANDLE ✓ | 29-May 15:06 | O:23554.75 H:23559.95 L:23545.20 C:23547.20 | total=1852
+15:07:01 INFO     Indicators calculated | RSI=8.1 | ST_dir=-1 | BB=23623.75/23714.80/23805.85
+15:07:01 INFO     Signal checking | close=23547.20 RSI=8.1 ST=-1 BB=23623.75/23714.80/23805.85
+15:07:01 INFO     Signal -> BUY
+15:07:02 INFO     Telegram alert sent 
+15:07:56 INFO        Fyers Signal Bot — Starting    
+15:07:56 INFO     Symbol    : NSE:NIFTY50-INDEX
+15:07:56 INFO     Timeframe : 1 min
+15:07:56 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+15:07:56 INFO     Accesss token loaded....
+15:07:56 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+15:07:57 INFO     API response recieved | status ok
+15:07:57 INFO     Candles parsed | count=1853 | first=22-May 09:15 | last=29-May 15:07
+15:07:57 INFO     Historical candles loaded | count=1853 | first=2026-05-22 09:15:00+05:30 | last=2026-05-29 15:07:00+05:30
+15:07:57 INFO     Accesss token loaded....
+15:07:57 INFO     Connecting to Fyers WebSocket...
+15:07:59 INFO     Websocket Connected
+15:08:00 INFO     First tick | LTP:23533.05 | window opened @ 15:07:59 IST
+15:08:00 INFO     CANDLE ✓ | 29-May 15:07 | O:23533.05 H:23533.05 L:23530.25 C:23530.25 | total=1854
+15:08:01 INFO     Indicators calculated | RSI=7.3 | ST_dir=-1 | BB=23586.57/23689.69/23792.81
+15:08:01 INFO     Signal checking | close=23530.25 RSI=7.3 ST=-1 BB=23586.57/23689.69/23792.81
+15:08:01 INFO     Signal -> BUY
+15:08:02 INFO     Telegram alert sent 
+15:09:00 INFO     CANDLE ✓ | 29-May 15:08 | O:23532.85 H:23533.75 L:23517.40 C:23522.85 | total=1855
+15:09:01 INFO     Indicators calculated | RSI=7.0 | ST_dir=-1 | BB=23569.63/23676.56/23783.49
+15:09:01 INFO     Signal checking | close=23522.85 RSI=7.0 ST=-1 BB=23569.63/23676.56/23783.49
+15:09:01 INFO     Signal -> BUY
+15:09:02 INFO     Telegram alert sent 
+15:10:01 INFO     CANDLE ✓ | 29-May 15:09 | O:23522.90 H:23525.35 L:23511.55 C:23512.75 | total=1856
+15:10:01 INFO     Indicators calculated | RSI=6.6 | ST_dir=-1 | BB=23553.23/23663.08/23772.93
+15:10:01 INFO     Signal checking | close=23512.75 RSI=6.6 ST=-1 BB=23553.23/23663.08/23772.93
+15:10:01 INFO     Signal -> BUY
+15:10:02 INFO     Telegram alert sent 
+15:11:00 INFO     CANDLE ✓ | 29-May 15:10 | O:23511.65 H:23521.15 L:23506.35 C:23517.85 | total=1857
+15:11:00 INFO     Indicators calculated | RSI=9.4 | ST_dir=-1 | BB=23539.14/23650.13/23761.12
+15:11:00 INFO     Signal checking | close=23517.85 RSI=9.4 ST=-1 BB=23539.14/23650.13/23761.12
+15:11:00 INFO     Signal -> BUY
+15:11:01 INFO     Telegram alert sent 
+15:12:01 INFO     CANDLE ✓ | 29-May 15:11 | O:23517.60 H:23528.75 L:23516.40 C:23521.75 | total=1858
+15:12:01 INFO     Indicators calculated | RSI=11.6 | ST_dir=-1 | BB=23527.01/23637.53/23748.05
+15:12:01 INFO     Signal checking | close=23521.75 RSI=11.6 ST=-1 BB=23527.01/23637.53/23748.05
+15:12:02 INFO     Telegram alert sent 
+15:13:00 INFO     CANDLE ✓ | 29-May 15:12 | O:23522.25 H:23526.85 L:23515.05 C:23523.15 | total=1859
+15:13:00 INFO     Indicators calculated | RSI=12.4 | ST_dir=-1 | BB=23516.62/23624.86/23733.10
+15:13:00 INFO     Signal checking | close=23523.15 RSI=12.4 ST=-1 BB=23516.62/23624.86/23733.10
+15:13:02 INFO     Telegram alert sent 
+15:14:01 INFO     CANDLE ✓ | 29-May 15:13 | O:23522.45 H:23525.25 L:23513.50 C:23523.90 | total=1860
+15:14:01 INFO     Indicators calculated | RSI=12.9 | ST_dir=-1 | BB=23507.95/23612.22/23716.49
+15:14:01 INFO     Signal checking | close=23523.90 RSI=12.9 ST=-1 BB=23507.95/23612.22/23716.49
+15:14:12 INFO     Telegram alert sent 
+15:15:00 INFO     CANDLE ✓ | 29-May 15:14 | O:23525.35 H:23529.25 L:23522.05 C:23528.10 | total=1861
+15:15:00 INFO     Indicators calculated | RSI=15.5 | ST_dir=-1 | BB=23501.09/23600.31/23699.53
+15:15:00 INFO     Signal checking | close=23528.10 RSI=15.5 ST=-1 BB=23501.09/23600.31/23699.53
+15:15:01 INFO     Telegram alert sent 
+15:16:00 INFO     CANDLE ✓ | 29-May 15:15 | O:23527.20 H:23556.15 L:23525.40 C:23555.40 | total=1862
+15:16:01 INFO     Indicators calculated | RSI=30.5 | ST_dir=-1 | BB=23498.32/23589.65/23680.97
+15:16:01 INFO     Signal checking | close=23555.40 RSI=30.5 ST=-1 BB=23498.32/23589.65/23680.97
+15:16:02 INFO     Telegram alert sent 
+15:17:00 INFO     CANDLE ✓ | 29-May 15:16 | O:23555.30 H:23559.80 L:23541.35 C:23545.10 | total=1863
+15:17:00 INFO     Indicators calculated | RSI=28.5 | ST_dir=-1 | BB=23497.64/23578.09/23658.55
+15:17:00 INFO     Signal checking | close=23545.10 RSI=28.5 ST=-1 BB=23497.64/23578.09/23658.55
+15:17:02 INFO     Telegram alert sent 
+15:18:00 INFO     CANDLE ✓ | 29-May 15:17 | O:23542.95 H:23548.95 L:23540.10 C:23547.10 | total=1864
+15:18:00 INFO     Indicators calculated | RSI=29.5 | ST_dir=-1 | BB=23500.71/23566.73/23632.74
+15:18:00 INFO     Signal checking | close=23547.10 RSI=29.5 ST=-1 BB=23500.71/23566.73/23632.74
+15:18:01 INFO     Telegram alert sent 
+15:19:01 INFO     CANDLE ✓ | 29-May 15:18 | O:23547.70 H:23552.65 L:23545.10 C:23547.20 | total=1865
+15:19:01 INFO     Indicators calculated | RSI=29.5 | ST_dir=-1 | BB=23510.74/23555.42/23600.10
+15:19:01 INFO     Signal checking | close=23547.20 RSI=29.5 ST=-1 BB=23510.74/23555.42/23600.10
+15:19:02 INFO     Telegram alert sent 
+21:51:45 ERROR    WebSocket error :Connection to remote host was lost.
+21:51:52 INFO     Websocket Connected
+21:51:53 INFO     CANDLE ✓ | 29-May 15:19 | O:23547.20 H:23554.05 L:23539.40 C:23540.70 | total=1866
+21:51:53 INFO     Indicators calculated | RSI=28.1 | ST_dir=-1 | BB=23515.49/23548.21/23580.93
+21:51:53 INFO     Signal checking | close=23540.70 RSI=28.1 ST=-1 BB=23515.49/23548.21/23580.93
+21:51:54 INFO     Telegram alert sent 
+22:17:11 ERROR    WebSocket error :Connection to remote host was lost.
+22:17:18 INFO     Websocket Connected
+13:22:57 ERROR    WebSocket error :Connection to remote host was lost.
+13:23:02 ERROR    WebSocket error :{'type': 'cn', 'code': -99, 'message': 'Token is expired', 's': 'error'}
+13:23:04 INFO     Websocket Connected
+13:23:04 ERROR    WebSocket error :{'code': -300, 'message': 'Please provide valid token', 's': 'error', 'type': 'sub'}
+09:55:49 INFO        Fyers Signal Bot — Starting    
+09:55:49 INFO     Symbol    : NSE:NIFTY50-INDEX
+09:55:49 INFO     Timeframe : 1 min
+09:55:49 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+09:55:49 INFO     Accesss token loaded....
+09:55:49 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+09:57:07 INFO        Fyers Signal Bot — Starting    
+09:57:07 INFO     Symbol    : NSE:NIFTY50-INDEX
+09:57:07 INFO     Timeframe : 1 min
+09:57:07 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=1min
+09:57:07 INFO     Accesss token loaded....
+09:57:07 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=1 min
+09:57:07 INFO     API response recieved | status ok
+09:57:07 INFO     Candles parsed | count=1543 | first=25-May 09:15 | last=01-Jun 09:57
+09:57:07 INFO     Historical candles loaded | count=1543 | first=2026-05-25 09:15:00+05:30 | last=2026-06-01 09:57:00+05:30
+09:57:07 INFO     Accesss token loaded....
+09:57:07 INFO     Connecting to Fyers WebSocket...
+09:57:09 INFO     Websocket Connected
+09:57:10 INFO     First tick | LTP:23567.30 | window opened @ 09:57:10 IST
+09:58:01 INFO     CANDLE ✓ | 01-Jun 09:57 | O:23567.30 H:23577.45 L:23562.00 C:23576.00 | total=1544
+09:58:01 INFO     Indicators calculated | RSI=45.9 | ST_dir=1 | BB=23572.04/23584.78/23597.53
+09:58:01 INFO     Signal checking | close=23576.00 RSI=45.9 ST=1 BB=23572.04/23584.78/23597.53
+09:58:03 INFO     Telegram alert sent 
+09:59:00 INFO     CANDLE ✓ | 01-Jun 09:58 | O:23575.75 H:23581.55 L:23566.30 C:23566.65 | total=1545
+09:59:00 INFO     Indicators calculated | RSI=42.1 | ST_dir=1 | BB=23570.64/23582.68/23594.72
+09:59:00 INFO     Signal checking | close=23566.65 RSI=42.1 ST=1 BB=23570.64/23582.68/23594.72
+09:59:11 INFO     Telegram alert sent 
+10:00:00 INFO     CANDLE ✓ | 01-Jun 09:59 | O:23565.70 H:23574.50 L:23557.05 C:23560.70 | total=1546
+10:00:00 INFO     Indicators calculated | RSI=39.8 | ST_dir=-1 | BB=23569.30/23580.09/23590.88
+10:00:00 INFO     Signal checking | close=23560.70 RSI=39.8 ST=-1 BB=23569.30/23580.09/23590.88
+10:00:11 INFO     Telegram alert sent 
+10:01:00 INFO     CANDLE ✓ | 01-Jun 10:00 | O:23561.05 H:23567.55 L:23561.05 C:23563.45 | total=1547
+10:01:00 INFO     Indicators calculated | RSI=41.4 | ST_dir=-1 | BB=23568.32/23578.01/23587.70
+10:01:00 INFO     Signal checking | close=23563.45 RSI=41.4 ST=-1 BB=23568.32/23578.01/23587.70
+10:01:00 INFO     Signal -> BUY
+10:01:11 INFO     Telegram alert sent 
+10:02:00 INFO     CANDLE ✓ | 01-Jun 10:01 | O:23562.35 H:23566.90 L:23554.15 C:23554.45 | total=1548
+10:02:00 INFO     Indicators calculated | RSI=37.9 | ST_dir=-1 | BB=23565.80/23575.99/23586.18
+10:02:00 INFO     Signal checking | close=23554.45 RSI=37.9 ST=-1 BB=23565.80/23575.99/23586.18
+10:02:02 INFO     Telegram alert sent 
+10:03:00 INFO     CANDLE ✓ | 01-Jun 10:02 | O:23555.05 H:23558.65 L:23552.95 C:23555.90 | total=1549
+10:03:00 INFO     Indicators calculated | RSI=38.8 | ST_dir=-1 | BB=23563.83/23574.14/23584.45
+10:03:00 INFO     Signal checking | close=23555.90 RSI=38.8 ST=-1 BB=23563.83/23574.14/23584.45
+10:03:00 INFO     Signal -> BUY
+10:03:01 INFO     Telegram alert sent 
+10:03:35 INFO        Fyers Signal Bot — Starting    
+10:03:35 INFO     Symbol    : NSE:NIFTY50-INDEX
+10:03:35 INFO     Timeframe : 10 min
+10:03:35 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+10:03:35 INFO     Accesss token loaded....
+10:03:35 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+10:03:36 INFO     API response recieved | status ok
+10:03:36 INFO     Candles parsed | count=157 | first=25-May 09:15 | last=01-Jun 09:55
+10:03:36 INFO     Historical candles loaded | count=157 | first=2026-05-25 09:15:00+05:30 | last=2026-06-01 09:55:00+05:30
+10:03:36 INFO     Accesss token loaded....
+10:03:36 INFO     Connecting to Fyers WebSocket...
+10:03:38 INFO     Websocket Connected
+10:03:39 INFO     First tick | LTP:23539.55 | window opened @ 10:03:38 IST
+10:10:01 INFO     CANDLE ✓ | 01-Jun 10:00 | O:23539.55 H:23569.90 L:23537.05 C:23569.85 | total=158
+10:10:01 INFO     Indicators calculated | RSI=35.8 | ST_dir=-1 | BB=23561.25/23666.98/23772.71
+10:10:01 INFO     Signal checking | close=23569.85 RSI=35.8 ST=-1 BB=23561.25/23666.98/23772.71
+10:10:02 INFO     Telegram alert sent 
+10:16:59 INFO        Fyers Signal Bot — Starting    
+10:16:59 INFO     Symbol    : NSE:NIFTY50-INDEX
+10:16:59 INFO     Timeframe : 10 min
+10:16:59 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+10:16:59 INFO     Accesss token loaded....
+10:16:59 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+10:18:24 INFO        Fyers Signal Bot — Starting    
+10:18:24 INFO     Symbol    : NSE:NIFTY50-INDEX
+10:18:24 INFO     Timeframe : 10 min
+10:18:24 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+10:18:24 INFO     Accesss token loaded....
+10:18:24 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+10:18:30 INFO        Fyers Signal Bot — Starting    
+10:18:30 INFO     Symbol    : NSE:NIFTY50-INDEX
+10:18:30 INFO     Timeframe : 10 min
+10:18:30 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+10:18:30 INFO     Accesss token loaded....
+10:18:30 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+10:28:58 INFO        Fyers Signal Bot — Starting    
+10:28:58 INFO     Symbol    : NSE:NIFTY50-INDEX
+10:28:58 INFO     Timeframe : 10 min
+10:28:58 INFO     CandleBuilder initialized | symbol=NSE:NIFTY50-INDEX | timeframe=10min
+10:28:58 INFO     Accesss token loaded....
+10:28:58 INFO     Fetching 40 candles | symbol=NSE:NIFTY50-INDEX | timeframe=10 min
+10:28:58 INFO     API response recieved | status ok
+10:28:58 INFO     Candles parsed | count=160 | first=25-May 09:15 | last=01-Jun 10:25
+10:28:58 INFO     Historical candles loaded | count=160 | first=2026-05-25 09:15:00+05:30 | last=2026-06-01 10:25:00+05:30
+10:28:58 INFO     Accesss token loaded....
+10:28:58 INFO     Connecting to Fyers WebSocket...
+10:29:00 INFO     Websocket Connected
+10:29:02 INFO     First tick | LTP:23545.55 | window opened @ 10:29:01 IST
+10:30:01 INFO     CANDLE ✓ | 01-Jun 10:20 | O:23545.55 H:23547.85 L:23539.85 C:23539.85 | total=161
+10:30:01 INFO     Indicators calculated | RSI=32.3 | ST_dir=-1 | BB=23528.30/23631.74/23735.17
+10:30:01 INFO     Signal checking | close=23539.85 RSI=32.3 ST=-1 BB=23528.30/23631.74/23735.17
+10:30:02 INFO     Telegram alert sent 
+10:40:01 INFO     CANDLE ✓ | 01-Jun 10:30 | O:23541.65 H:23553.50 L:23518.60 C:23543.05 | total=162
+10:40:01 INFO     Indicators calculated | RSI=32.9 | ST_dir=-1 | BB=23520.02/23621.58/23723.15
+10:40:01 INFO     Signal checking | close=23543.05 RSI=32.9 ST=-1 BB=23520.02/23621.58/23723.15
+10:40:02 INFO     Telegram alert sent 
+10:50:01 INFO     CANDLE ✓ | 01-Jun 10:40 | O:23542.30 H:23578.60 L:23535.75 C:23570.90 | total=163
+10:50:01 INFO     Indicators calculated | RSI=38.4 | ST_dir=-1 | BB=23515.10/23612.77/23710.44
+10:50:01 INFO     Signal checking | close=23570.90 RSI=38.4 ST=-1 BB=23515.10/23612.77/23710.44
+10:50:02 INFO     Telegram alert sent 
+11:00:01 INFO     CANDLE ✓ | 01-Jun 10:50 | O:23569.35 H:23597.05 L:23564.80 C:23569.75 | total=164
+11:00:01 INFO     Indicators calculated | RSI=38.3 | ST_dir=-1 | BB=23511.06/23604.04/23697.01
+11:00:01 INFO     Signal checking | close=23569.75 RSI=38.3 ST=-1 BB=23511.06/23604.04/23697.01
+11:00:02 INFO     Telegram alert sent 
+11:10:01 INFO     CANDLE ✓ | 01-Jun 11:00 | O:23571.30 H:23612.70 L:23570.40 C:23610.05 | total=165
+11:10:01 INFO     Indicators calculated | RSI=45.7 | ST_dir=-1 | BB=23510.56/23597.07/23683.58
+11:10:01 INFO     Signal checking | close=23610.05 RSI=45.7 ST=-1 BB=23510.56/23597.07/23683.58
+11:10:02 INFO     Telegram alert sent 
+11:20:01 INFO     CANDLE ✓ | 01-Jun 11:10 | O:23611.40 H:23619.20 L:23597.75 C:23607.90 | total=166
+11:20:01 INFO     Indicators calculated | RSI=45.4 | ST_dir=-1 | BB=23514.43/23587.84/23661.25
+11:20:01 INFO     Signal checking | close=23607.90 RSI=45.4 ST=-1 BB=23514.43/23587.84/23661.25
+11:20:02 INFO     Telegram alert sent 
+11:30:01 INFO     CANDLE ✓ | 01-Jun 11:20 | O:23607.15 H:23607.15 L:23558.45 C:23559.15 | total=167
+11:30:02 INFO     Indicators calculated | RSI=38.9 | ST_dir=-1 | BB=23519.68/23576.49/23633.31
+11:30:02 INFO     Signal checking | close=23559.15 RSI=38.9 ST=-1 BB=23519.68/23576.49/23633.31
+11:30:13 INFO     Telegram alert sent 
+12:23:09 ERROR    WebSocket error :Connection to remote host was lost.
+12:23:16 INFO     Websocket Connected
+12:23:19 INFO     CANDLE ✓ | 01-Jun 11:30 | O:23560.15 H:23561.25 L:23556.65 C:23559.05 | total=168
+12:23:19 INFO     Indicators calculated | RSI=38.9 | ST_dir=-1 | BB=23533.80/23565.61/23597.43
+12:23:19 INFO     Signal checking | close=23559.05 RSI=38.9 ST=-1 BB=23533.80/23565.61/23597.43
+12:23:20 INFO     Telegram alert sent 
+12:30:02 INFO     CANDLE ✓ | 01-Jun 12:20 | O:23524.05 H:23525.05 L:23514.50 C:23516.95 | total=169
+12:30:02 INFO     Indicators calculated | RSI=34.0 | ST_dir=-1 | BB=23529.40/23562.99/23596.59
+12:30:02 INFO     Signal checking | close=23516.95 RSI=34.0 ST=-1 BB=23529.40/23562.99/23596.59
+12:30:02 INFO     Signal -> BUY
+12:30:03 INFO     Telegram alert sent 
+12:40:01 INFO     CANDLE ✓ | 01-Jun 12:30 | O:23517.25 H:23525.15 L:23509.30 C:23514.65 | total=170
+12:40:01 INFO     Indicators calculated | RSI=33.7 | ST_dir=-1 | BB=23527.81/23562.29/23596.77
+12:40:01 INFO     Signal checking | close=23514.65 RSI=33.7 ST=-1 BB=23527.81/23562.29/23596.77
+12:40:01 INFO     Signal -> BUY
+12:40:02 INFO     Telegram alert sent 
+13:43:26 ERROR    WebSocket error :Connection to remote host was lost.
+13:43:33 INFO     Websocket Connected
+13:43:36 INFO     CANDLE ✓ | 01-Jun 12:40 | O:23515.90 H:23536.95 L:23503.65 C:23534.55 | total=171
+13:43:36 INFO     Indicators calculated | RSI=38.0 | ST_dir=-1 | BB=23533.62/23564.49/23595.37
+13:43:36 INFO     Signal checking | close=23534.55 RSI=38.0 ST=-1 BB=23533.62/23564.49/23595.37
+13:43:42 INFO     Telegram alert sent 
+13:50:01 INFO     CANDLE ✓ | 01-Jun 13:40 | O:23485.55 H:23487.15 L:23458.00 C:23461.95 | total=172
+13:50:02 INFO     Indicators calculated | RSI=30.3 | ST_dir=-1 | BB=23520.47/23557.13/23593.78
+13:50:02 INFO     Signal checking | close=23461.95 RSI=30.3 ST=-1 BB=23520.47/23557.13/23593.78
+13:50:02 INFO     Signal -> BUY
+13:50:03 INFO     Telegram alert sent 
+14:13:29 ERROR    WebSocket error :Connection to remote host was lost.
+14:13:36 INFO     Websocket Connected
+14:13:39 INFO     CANDLE ✓ | 01-Jun 13:50 | O:23462.15 H:23465.40 L:23448.20 C:23458.70 | total=173
+14:13:39 INFO     Indicators calculated | RSI=30.1 | ST_dir=-1 | BB=23508.76/23550.12/23591.47
+14:13:39 INFO     Signal checking | close=23458.70 RSI=30.1 ST=-1 BB=23508.76/23550.12/23591.47
+14:13:39 INFO     Signal -> BUY
+14:13:40 INFO     Telegram alert sent 

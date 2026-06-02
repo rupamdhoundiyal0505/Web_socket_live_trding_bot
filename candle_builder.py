@@ -1,6 +1,6 @@
 import pytz
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from config import TIMEZONE, TIMEFRAME_MIN, SYMBOL
 from utils import setup_logger
@@ -87,11 +87,24 @@ class CandleBuilder:
 
     def _get_candle_bucket(self,unix_ts: int) -> int:
         dt=self._to_ist(unix_ts)
-        aligned_minute = (
-            dt.minute // self.timeframe_min
-        )* self.timeframe_min
-        bucket = dt.replace(minute=aligned_minute, second=0, microsecond=0)
-        return int(bucket.timestamp())
+
+        market_open = dt.replace(
+            hour=9, minute=15, second=0, microsecond=0
+        )
+
+        minutes_since_open = (dt - market_open).total_seconds() // 60
+        bucket_index = (
+            minutes_since_open // self.timeframe_min
+        )
+        bucket_start = (
+            market_open + timedelta(minutes=bucket_index * self.timeframe_min)
+        )
+
+        # aligned_minute = (
+        #     dt.minute // self.timeframe_min
+        # )* self.timeframe_min
+        # bucket = dt.replace(minute=aligned_minute, second=0, microsecond=0)
+        return int(bucket_start.timestamp())
 
     def _reset_window(self, new_start_ts: int) -> None:
         self.temp_ltps = []

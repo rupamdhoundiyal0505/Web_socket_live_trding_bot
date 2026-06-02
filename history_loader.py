@@ -71,5 +71,6 @@ def fetch_historical_candles(
         df["timestamp"].iloc[0].strftime("%d-%b %H:%M"),
         df["timestamp"].iloc[-1].strftime("%d-%b %H:%M"),
     )
+    # print(df)
 
     return df

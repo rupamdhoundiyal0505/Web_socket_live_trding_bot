@@ -3,6 +3,33 @@ import logging.handlers
 
 from config import TOKEN_FILE
 
+# Create logger
+#     ↓
+# Define formatting style
+#     ↓
+# Create console handler
+#     ↓
+# Create file handler
+#     ↓
+# Attach handlers to logger
+#     ↓
+# Return logger
+
+# Logging Levels
+# DEBUG     → detailed info
+# INFO      → normal events
+# WARNING   → something suspicious
+# ERROR     → failure happened
+# CRITICAL  → major crash
+
+# Concept
+
+# If level is:
+
+# logging.INFO
+
+# Then DEBUG logs are ignored.
+# Python logging works like a global registry system.
 def setup_logger(name: str, level=logging.DEBUG)-> logging.Logger:
     log = logging.getLogger(name)
     log.setLevel(level)

@@ -42,8 +42,9 @@ def on_candle_close(df):
     df = calculate_indicators(df)
     print(f"Columns after indicators: {df.columns.tolist()}")  # what columns exist
     print(f"Last row:\n{df.iloc[-1]}")  
-    signal = generate_signal(df)
-    send_alert(signal, df)
+    signal_state = generate_signal(df)
+    # print(f"Signal state: {signal_state}")
+    send_alert(signal_state)
 
 
 def main(timeframe_min: int = TIMEFRAME_MIN):

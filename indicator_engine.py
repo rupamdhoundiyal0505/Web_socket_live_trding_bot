@@ -1,6 +1,6 @@
 import pandas as pd
 import pandas_ta as ta
-from config import BB_LENGTH, BB_STD, RSI_LENGTH, ST_LENGTH, ST_MULTIPLIER
+from config import BB_LENGTH, BB_LOWER_STD, BB_UPPER_STD, RSI_LENGTH, ST_LENGTH, ST_MULTIPLIER
 from utils import setup_logger
 
 log = setup_logger(__name__)
@@ -28,9 +28,10 @@ def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
     bb = ta.bbands(
         df["close"],
         length = BB_LENGTH,
-        std = BB_STD
+        lower_std = BB_LOWER_STD,
+        upper_std = BB_UPPER_STD,
     )
-    print("BB columns:", bb.columns.tolist())   # ← add this
+    print("BB columns: using std as 1.0", bb.columns.tolist())   # ← add this
     # print("BB_LENGTH:", BB_LENGTH, "BB_STD:", BB_STD)  # ← add this
     df["bb_lower"] = bb.iloc[:, 0]   # first column  = BBL
     df["bb_mid"]   = bb.iloc[:, 1]   # second column = BBM
