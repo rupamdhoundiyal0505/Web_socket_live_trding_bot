@@ -2,6 +2,8 @@ import pandas as pd
 import pandas_ta as ta
 from config import BB_LENGTH, BB_LOWER_STD, BB_UPPER_STD, RSI_LENGTH, ST_LENGTH, ST_MULTIPLIER
 from utils import setup_logger
+from bb_cal import bb_calculation
+
 
 log = setup_logger(__name__)
 def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
@@ -25,17 +27,19 @@ def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
         length=ST_LENGTH,
         multiplier=ST_MULTIPLIER
     )
-    bb = ta.bbands(
-        df["close"],
-        length = BB_LENGTH,
-        lower_std = BB_LOWER_STD,
-        upper_std = BB_UPPER_STD,
-    )
-    print("BB columns: using std as 1.0", bb.columns.tolist())   # ← add this
+    # bb = ta.bbands(
+    #     df["close"],
+    #     length = BB_LENGTH,
+    #     lower_std = BB_LOWER_STD,
+    #     upper_std = BB_UPPER_STD,
+    # )
+    # print("BB columns: using std as 1.0", bb.columns.tolist())   # ← add this
     # print("BB_LENGTH:", BB_LENGTH, "BB_STD:", BB_STD)  # ← add this
-    df["bb_lower"] = bb.iloc[:, 0]   # first column  = BBL
-    df["bb_mid"]   = bb.iloc[:, 1]   # second column = BBM
-    df["bb_upper"] = bb.iloc[:, 2]   # third column  = BBU
+    bb= bb_calculation(df)
+    df["bb_lower"] = bb["bb_lower"]  # first column  = BBL
+    df["bb_mid"]   = bb["bb_mid"] # second column = BBM
+    df["bb_upper"] = bb["bb_upper"] # third column  = BBU
+    
 
     df["supertrend"] = st[f"SUPERT_{ST_LENGTH}_{ST_MULTIPLIER}"]
     df["supertrend_dir"] = st[f"SUPERTd_{ST_LENGTH}_{ST_MULTIPLIER}"]

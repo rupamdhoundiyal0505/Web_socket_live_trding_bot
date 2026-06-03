@@ -1,9 +1,12 @@
 import pandas as pd
 from utils import setup_logger
+from option_selector import get_trade_setup
 log=setup_logger(__name__)
 
 _active_buy_signal = None
 _active_sell_signal = None
+_active_buy_trade = None
+_active_sell_trade = None
 
 def _create_signal(candle, signal_type: str) -> None:
     return{
@@ -20,7 +23,7 @@ def _create_signal(candle, signal_type: str) -> None:
     }
 # implement prev signal validity logic afterwards
 def generate_signal(df: pd.DataFrame) -> str:
-    global _active_buy_signal, _active_sell_signal
+    global _active_buy_signal, _active_sell_signal, _active_buy_trade, _active_sell_trade
 
 
     last = df.iloc[-1]
@@ -34,7 +37,7 @@ def generate_signal(df: pd.DataFrame) -> str:
     bb_upper = last["bb_upper"]
     bb_mid   = last["bb_mid"]
     bb_lower = last["bb_lower"]
-    low = last["close"]
+    low = last["low"]
     high = last["high"]
 
     log.info(
@@ -43,27 +46,31 @@ def generate_signal(df: pd.DataFrame) -> str:
         bb_lower, bb_mid, bb_upper,
     )
 
-   
-    if :
-        _active_buy_signal = _create_signal(last, "BUY")
-        log.info("Signal -> BUY")
+ 
+    # trade_setup = None
 
-    if :
-        _active_sell_signal = _create_signal(last, "SELL")
-        log.info("Signal -> SELL")
-    
+    #**********
+    # WRITE LOGIC HERE BELOW
+    #*********
+
+
     
     if _active_buy_signal is not None:
         if close < _active_buy_signal["low"]:
             _active_buy_signal = None
+            _active_buy_trade = None
 
     if _active_sell_signal is not None:
         if close > _active_sell_signal["high"]:
             _active_sell_signal = None
+            _active_sell_trade= None
+
 
     market_state = {
         "active_buy": _active_buy_signal,
         "active_sell": _active_sell_signal,
+        "active_buy_trade": _active_buy_trade,
+        "active_sell_trade": _active_sell_trade,
         "market_data": {
             "timestamp": last["timestamp"],
             "close": close,

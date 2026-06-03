@@ -72,5 +72,8 @@ def fetch_historical_candles(
         df["timestamp"].iloc[-1].strftime("%d-%b %H:%M"),
     )
     # print(df)
+    df2= df.iloc[:-1]
+    # df2.tail(50).to_csv("bb_debug.csv", index=False)
 
-    return df
+
+    return df2

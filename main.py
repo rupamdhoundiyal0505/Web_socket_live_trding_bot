@@ -45,6 +45,7 @@ def on_candle_close(df):
     signal_state = generate_signal(df)
     # print(f"Signal state: {signal_state}")
     send_alert(signal_state)
+    df.to_csv("testing.csv")
 
 
 def main(timeframe_min: int = TIMEFRAME_MIN):

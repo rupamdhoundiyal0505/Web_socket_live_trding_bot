@@ -6,6 +6,8 @@ log = setup_logger(__name__)
 
 def send_alert(market_state: dict) ->None:
     active_buy = market_state.get("active_buy")
+    active_buy_strike = market_state.get("active_buy_trade")
+    active_sell_strike = market_state.get("active_sell_trade")
     active_sell = market_state.get("active_sell")
     market_data = market_state.get("market_data")
 
@@ -20,6 +22,7 @@ def send_alert(market_state: dict) ->None:
             "🟢 ACTIVE BUY SIGNAL\n"
             f"Time  : {active_buy['timestamp']}\n"
             f"High  : {active_buy['high']:.2f}\n"
+            f"{active_buy_strike}\n"
         )
 
     else:
@@ -32,6 +35,7 @@ def send_alert(market_state: dict) ->None:
             "🔴 ACTIVE SELL SIGNAL\n"
             f"Time  : {active_sell['timestamp']}\n"
             f"Low   : {active_sell['low']:.2f}\n"
+            f"{active_sell_strike}\n"
         )
 
     else:
