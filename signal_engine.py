@@ -52,6 +52,15 @@ def generate_signal(df: pd.DataFrame) -> str:
     #**********
     # WRITE LOGIC HERE BELOW
     #*********
+    if bb_lower >= high:
+        _active_buy_signal = _create_signal(last, "BUY")
+        _active_buy_trade= get_trade_setup("BUY")
+        log.info("Signal -> BUY")
+
+    if bb_upper <= low:
+        _active_sell_signal = _create_signal(last, "SELL")
+        _active_sell_trade = get_trade_setup("SELL")
+        log.info("Signal -> SELL")
 
 
     
