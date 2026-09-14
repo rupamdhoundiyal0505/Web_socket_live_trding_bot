@@ -30,3 +30,9 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN","")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 
+
+
+CHUNK_DAYS = 90
+CAACHE_DIR = "backtest_cache" # to store API results so that we don't have to call the API again and again
+
+
